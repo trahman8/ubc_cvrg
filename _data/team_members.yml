@@ -97,3 +97,12 @@
   number_educ: 2
   education1: Computer Vision 
   education2: Deep Learning  
+  
+  - name: Tanzila Rahman
+  photo: tanzila.jpg
+  info: PHD Student
+  email: trahman8@cs.ubc.ca
+  webpage: http://juniv.edu/teachers/632
+  number_educ: 2
+  education1: Image Processing and Computer Vision 
+  education2: Deep Learning  

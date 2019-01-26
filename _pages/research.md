@@ -7,19 +7,31 @@ permalink: /research/
 ---
 
 # Research
+Computer Vision group at UBC focuses on developing and building state-of-the-art algorithms and prototypes for visually intelligent systems. We tackle a broad spectrum of problems, from low-level vision to high-level visual semantic understanding. Applications are equally broad, spanning robotics, sport analytics, health-care, visual media curation and annotation.
+{: .text-justify}
 
-Our overarching goal is to explore and understand new quantum states of electronic matter on the atomic scale. To do so, we use and develop novel spectroscopic-imaging scanning tunneling microscopy (SI-STM) tools to visualize the relevant quantum mechanical degrees of freedom.
-
-Questions of interest include: (i), How does the Mott state collapse upon doping and how is this related to the complex phase diagram of high-temperature superconductors? (ii), What is the strange metal phase seen in correlated electron systems? Is this an exotic long-range entangled state? What is the mechanism of dissipation in that state? (iii), Why is the transition temperature in high-temperature superconductors so high? 
- 
+<!--
 ![]({{ site.url }}{{ site.baseurl }}/images/respic/layers_real.jpg){: style="width: 300px; float: right; border: 10px"}
+-->
 
-Currently, our instrument of choice  is SI-STM.  State-of-the-art SI-STM measures an array of tunneling spectra on a given sample, registered to the atomic sites with picometer precision. Each is proportional to the local density of states at a given location. Ideally, the recorded spectra are so tightly packed that the measurement yields a three-dimensional mapping of the local density of states as a function of locations and energy. This is shown on the image on the right-hand side (10x10 nm2), and its Fourier transform, below.
 
-The quantum materials which we will investigate encapsulate some of the great unsolved mysteries of physics. They include high-temperature superconductors, quantum-critical compounds, graphene, and topological electronic matter that can be used for error-resistant quantum computing.
+### Sport Analytics
+Sports video analysis offers an opportunity to address a wide range of vision tasks, from tracking to re-identification to action recognition to understanding cooperative and competitive actions of groups of team members.  By tackling this wide range of problem in the constrained context of sports (hockey, soccer, football) we can make progress on the sub-problems (such as pose and action recognition) that are valuable in more general settings such as smart homes.
+{: .text-justify}
 
+### Human Pose Estimation and Activity Recognition 
+Ability to recover human pose and understand human behavior is a very difficult problem that dates back to the beginnings of Computer Vision. AI-driven automated systems will eventually need to interact with humans and require an ability to reason about and interpret our subtle behaviors. Such algorithms are also critical for variety of important applications, including in gaming, security, analytics, virtual retail and many others. The topics we are working on in this space are: person detection and tracking, human pose estimation, activity recognition, situation recognition, even recognition. 
+{: .text-justify}
+<!--
 ![]({{ site.url }}{{ site.baseurl }}/images/respic/layers_fft.jpg){: style="width: 300px; float: left; border: 10px"}
+-->
 
-A main goal is to use modern technology to build the new instrumentation needed to understand these quantum materials. I learned my trade in [Seamus Davis’ SI-STM lab](http://davisgroup.lassp.cornell.edu/) and with [Felix Baumberger](http://dpmc.unige.ch/gr_baumberger/index.html), and later moved as an [ETH fellow](http://www.ethfellows.ethz.ch/) to [Andreas Wallraff’s qudev lab](http://www.qudev.ethz.ch/) where we investigated coupled cavity arrays in circuit QED. This allowed me to learn new techniques such as high frequency measurements, low temperature noise-free amplification, and quantum-limited measurements. The goal is to combine these with SI-STM.
+### Vision and Language
+As humans, our main modality of perception is vision, and for communication — language. These two modalities are closely tied and enable our ability to navigate and engage in complex tasks. With the progress of AI, which has lead to substantial advances in both visual and natural language processing, we are looking to move from learning from a single modality like vision, language or sound, to building integrated autonomous algorithms and systems that can interact and learn from humans through language. The topics we are working on in this space are: image and video captioning, visual question answering and dialog systems, visual language grounding, alignment of text and video, natural language-based image/video search and retrieval, and zero-shot learning. 
+{: .text-justify}
 
-This will enable the instrumental capabilities to visualize the different quantum mechanical degrees of freedom needed to understand next-generation quantum materials. STM will be the main method, but we use different spectroscopic-imaging techniques to visualize not only the topography, but also the density of states, spins, and other degrees of freedom hidden below the surface.
+
+### Visual Imagination (Generative) Models
+Humans have amazing ability to be able to hypothesize and create visual depictions of described scenes or objects from novel views. This imagination or control hallucination is, at least in part, responsible for transference and our ability to efficiently learn concepts for few instantiations. With the progress of deep generative models, such as Variational Auto Encoders and Generative Adversarial Networks, we are starting to strive towards similar successes from automated visual systems. The topics we are working on in this space are: disentangled representations, image-to-image translation, generating realistic visual depictions from linguistic or layout description, video generation.  
+{: .text-justify}
+

@@ -1,3 +1,57 @@
+
+
+- title: "Modular Generative Adversarial Networks"
+  image: dummy.png
+  description: "Existing methods for multi-domain image-to-image translation (or generation) attempt to directly map an input image (or a random vector) to an image in one of the output domains. However, most existing methods have limited scalability and robustness, since they require building independent models for each pair of domains in question. This leads to  two significant shortcomings: (1) the need to train exponential number of pairwise models, and (2) the inability to leverage data from other domains when training a particular pairwise mapping. Inspired by recent work on module networks [2], this paper proposes ModularGAN for multi-domain image generation and image-to-image translation. ModularGAN consists of several reusable and composable modules that carry on different functions (e.g., encoding, decoding, transformations). These modules can be trained simultaneously, leveraging data from all domains, and then combined to construct specific GAN networks at test time, according to the specific image translation task. This leads to ModularGAN’s superior flexibility of generating (or translating to) an image in any desired domain. Experimental results demonstrate that our model not only presents compelling perceptual results but also outperforms state-of-the-art methods on multi-domain facial attribute transfer."
+  authors: B. Zhao, B. Chang, Z. Jie and L. Sigal
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/eccv2018zhao.pdf
+    display:  European Conference on Computer Vision (ECCV), 2018
+  highlight: 0
+  news2: 
+
+- title: "Probabilistic Video Generation using Holistic Attribute Control"
+  image: dummy.png
+  description: "Videos express highly structured spatio-temporal patterns of visual data. A video can be thought of as being governed by two factors: (i) temporally invariant (e.g., person identity), or slowly varying (e.g., activity), attributeinduced appearance, encoding the persistent content of each frame, and (ii) an inter-frame motion or scene dynamics (e.g., encoding evolution of the person executing the action). Based on this intuition, we propose a generative framework for video generation and future prediction. The proposed framework generates a video (short clip) by decoding samples sequentially drawn from a latent space distribution into full video frames. Variational Autoencoders (VAEs) are used as a means of encoding/decoding frames into/from the latent space and RNN as a way to model the dynamics in the latent space. We improve the video generation consistency through temporally-conditional sampling and quality by structuring the latent space with attribute controls; ensuring that attributes can be both inferred and conditioned on during learning/generation. As a result, given attributes and/or the first frame, our model is able to generate diverse but highly consistent sets of video sequences, accounting for the inherent uncertainty in the prediction task. Experimental results on Chair CAD [1], Weizmann Human Action [2], and MIT Flickr [3] datasets, along with detailed comparison to the state-of-the-art, verify effectiveness of the framework."
+  authors: J. He, A. Lehrmann, J. Marino, G. Mori and L. Sigal
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/eccv2018he.pdf
+    display:  European Conference on Computer Vision (ECCV), 2018
+  highlight: 0
+  news2: 
+
+- title: "A Neural Multi-sequence Alignment TeCHnique (NeuMATCH)"
+  image: dummy.png
+  description: "The alignment of heterogeneous sequential data (video to text) is an important and challenging problem. Standard techniques for this task, including Dynamic Time Warping (DTW) and Conditional Random Fields (CRFs), suffer from inherent drawbacks. Mainly, the Markov assumption implies that, given the immediate past, future alignment decisions are independent of further history. The separation between similarity computation and alignment decision also prevents end-to-end training. In this paper, we propose an end-to-end neural architecture where alignment actions are implemented as moving data between stacks of Long Short-term Memory (LSTM) blocks. This flexible architecture supports a large variety of alignment tasks, including one-to-one, one-to-many, skipping unmatched elements, and (with extensions) non-monotonic alignment. Extensive experiments on semi-synthetic and real datasets show that our algorithm outperforms state-of-the-art baselines."
+  authors: P. Dogan, B. Li, L. Sigal and M. Gross
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/cvpr2018dogan.pdf
+    display:  IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018 
+  highlight: 0
+  news2: 
+
+- title: "Show Me a Story: Towards Coherent Neural Story Illustration"
+  image: dummy.png
+  description: " "
+  authors: H. Ravi, L. Wang, C Muniz, L. Sigal, D. Metaxas and M. Kapadia
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/cvpr2018ravi.pdf
+    display:  IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018
+  highlight: 0
+  news2: 
+
+- title: "Predicting Personality from Book Preferences with User-Generated Content Labels"
+  image: dummy.png
+  description: "Psychological studies have shown that personality traits are associated with book preferences. However, past findings are based on questionnaires focusing on conventional book genres and are unrepresentative of niche content. For a more comprehensive measure of book content, this study harnesses a massive archive of content labels, also known as ‘tags’, created by users of an online book catalogue, Goodreads.com. Combined with data on preferences and personality scores collected from Facebook users, the tag labels achieve high accuracy in personality prediction by psychological standards. We also group tags into broader genres, to check their validity against past findings. Our results genre levels of analyses, and consistent with existing literature. Moreover, user-generated tag labels reveal unexpected insights, such as cultural differences, book reading behaviors, and other non-content factors affecting preferences. To our knowledge, this is currently the largest study that explores the relationship between personality and book content preferences."
+  authors: N. Annalyn, M. W. Bos, L. Sigal and B. Li
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/tac2018annalyn.pdf
+    display:  IEEE Transactions on Affective Computing (TAC), 2018
+  highlight: 0
+  news2:
+
+
+
 - title: "Where should cameras look at soccer games: improving smoothness using the overlapped hidden Markov model"
   image: dummy.png
   description: "Automatic camera planning for sports has been a long term goal in computer vision and machine learning. In this paper, we study camera planning for soccer games using pan, tilt and zoom (PTZ) cameras. Two important problems have been addressed. First, we propose the Overlapped Hidden Markov Model (OHMM) method which effectively optimizes the camera trajectory in overlapped local windows. The OHMM method significantly improves the smoothness of the camera planning by optimizing the camera trajectory in the temporal space, resulting in much more natural camera movements present in real broadcasts. We also propose CalibMe which is a highly automatic camera calibration method for soccer games. CalibMe enables users to collect large amounts of training data for learning algorithms. The precision of CalibMe is evaluated on a motion blur affected sequence and outperforms several strong existing methods. The performance of the OHMM method is extensively evaluated on both synthetic and real data. It outperforms the state-of-the-art algorithms in terms of smoothness without sacrificing accuracy."
@@ -5,6 +59,187 @@
   link:
     url: https://www.sciencedirect.com/science/article/pii/S1077314216301709
     display:  Compuer Vision and Image Understanding (2017)
+  highlight: 0
+  news2: 
+
+
+- title: "Story Albums: Creating Fictional Stories from Personal Photograph Sets"
+  image: dummy.png
+  description: "We propose a generative approach to physicsbased motion capture. Unlike prior attempts to incorporate physics into tracking that assume the subject and scene geometry are calibrated and known a priori, our approach is automatic and online. This distinction is important since calibration of the environment is often difficult, especially for motions with props, uneven surfaces, or outdoor scenes. The use of physics in this context provides a natural framework to reason about contact and the plausibility of recovered motions. We propose a fast data-driven parametric body model, based on linear-blend skinning, which decouples deformations due to pose, anthropometrics and body shape. Pose (and shape) parameters are estimated using robust ICP optimization with physics-based dynamic priors that incorporate contact. Contact is estimated from torque trajectories and predictions of which contact points were active. To our knowledge, this is the first approach to take physics into account without explicit a priori knowledge of the environment or body dimensions. We demonstrate effective tracking from a noisy single depth camera, improving on state-of-the-art results quantitatively and producing better qualitative results, reducing visual artifacts like foot-skate and jitter."
+  authors: O. Radiano, Y. Graber, M. Mahler, L. Sigal and A. Shamir
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/crv2018livne.pdf
+    display: Computer Graphics Forum, Volume 36, 2017
+  highlight: 0
+  news2: 
+
+- title: "Non-parametric Structured Outputs Networks"
+  image: dummy.png
+  description: "Deep neural networks (DNNs) and probabilistic graphical models (PGMs) are the two main tools for statistical modeling. While DNNs provide the ability to model rich and complex relationships between input and output variables, PGMs provide the ability to encode dependencies among the output variables themselves. End-to-end training methods for models with structured graphical dependencies on top of neural predictions have recently emerged as a principled way of combining these two paradigms. While these models have proven to be powerful in discriminative settings with discrete outputs, extensions to structured continuous spaces, as well as performing efficient inference in these spaces, are lacking. We propose non-parametric structured output networks (NSON), a modular approach that cleanly separates a non-parametric, structured posterior representation from a discriminative inference scheme but allows joint end-to-end training of both components. Our experiments evaluate the ability of NSONs to capture structured posterior densities (modeling) and to compute complex statistics of those densities (inference). We compare our model to output spaces of varying expressiveness and popular variational and sampling-based inference algorithms."
+  authors: A. Lehrmann and L. Sigal
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/nips2017lehrmann.pdf
+    display:  Neural Information Processing Systems (NIPS), 2017
+  highlight: 0
+  news2: 
+
+- title: "Visual Reference Resolution using Attention Memory for Visual Dialog"
+  image: dummy.png
+  description: "Visual dialog is a task of answering a series of inter-dependent questions given an input image, and often requires to resolve visual references among the questions. This problem is different from visual question answering (VQA), which relies on spatial attention (a.k.a. visual grounding) estimated from an image and question pair. We propose a novel attention mechanism that exploits visual attentions in the past to resolve the current reference in the visual dialog scenario. The proposed model is equipped with an associative attention memory storing a sequence of previous (attention, key) pairs. From this memory, the model retrieves the previous attention, taking into account recency, which is most relevant for the current question, in order to resolve potentially ambiguous references. The model then merges the retrieved attention with a tentative one to obtain the final attention for the current question; specifically, we use dynamic parameter prediction to combine the two attentions conditioned on the question. Through extensive experiments on a new synthetic visual dialog dataset, we show that our model significantly outperforms the state-of-the-art (by ≈ 16 % points) in situations, where visual reference resolution plays an important role. Moreover, the proposed model achieves superior performance (≈ 2 % points improvement) in the Visual Dialog dataset [1], despite having significantly fewer parameters than the baselines."
+  authors: P. H. Seo, A. Lehrmann, B. Han and L. Sigal
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/nips2017seo.pdf
+    display:  Neural Information Processing Systems (NIPS), 2017
+  highlight: 0
+  news2: 
+
+- title: "Weakly-supervised Visual Grounding of Phrases with Linguistic Structures"
+  image: dummy.png
+  description: "We propose a weakly-supervised approach that takes image-sentence pairs as input and learns to visually ground (i.e., localize) arbitrary linguistic phrases, in the form of spatial attention masks. Specifically, the model is trained with images and their associated image-level captions, without any explicit region-to-phrase correspondence annotations. To this end, we introduce an end-to-end model which learns visual groundings of phrases with two types of carefully designed loss functions. In addition to the standard discriminative loss, which enforces that attended image regions and phrases are consistently encoded, we propose a novel structural loss which makes use of the parse tree structures induced by the sentences. In particular, we ensure complementarity among the attention masks that correspond to sibling noun phrases, and compositionality of attention masks among the children and parent phrases, as defined by the sentence parse tree. We validate the effectiveness of our approach on the Microsoft COCO and Visual Genome datasets."
+  authors: F. Xiao, L. Sigal and Y. J. Lee
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/cvpr2017xiao.pdf
+    display:  IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017
+  highlight: 0
+  news2: 
+
+- title: "Story Albums: Creating Fictional Stories from Personal Photograph Sets"
+  image: dummy.png
+  description: ""
+  authors:  O. Radiano, Y. Graber, M. Mahler, L. Sigal and A. Shamir
+  link:
+    url: 
+    display: Computer Graphics Forum, Volume 36, 2017
+  highlight: 0
+  news2: 
+
+- title: "Learn How to Choose: Independent Detectors versus Composite Visual Phrases"
+  image: dummy.png
+  description: "Most approaches for scene parsing, recognition or retrieval use detectors that are either (i) independently trained or (ii) jointly trained for conjunctions of objectobject or object-attribute phrases. We posit that neither of these two extremes is uniformly optimal, in terms of performance, across all categories and conjunctions. The choice of whether one should train an independent or composite detector should be made for each possible conjunction separately, and depends on the statistics of the dataset as well. For example, person holding phone may be more accurately modeled using a single composite detector, while tall person may be more accurately modeled as combination of two detectors. We extensively study this issue in the context of multiple problems and datasets. Further, for efficiency, we propose a predictor that is based on a number of category specific features ( e.g., sample size, entropy, etc.) for whether independent or joint composite detector may be more accurate for a given conjunction. We show that our prediction and selection mechanism generalizes and leads to improved performance on a number of large-scale datasets and vision tasks."
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/wacv2017rosenthal.pdf
+    display: Winter Conference on Applications of Computer Vision (WACV), 2017
+  highlight: 0
+  news2: 
+
+- title: "Where should cameras look at soccer games: improving smoothness using the overlapped hidden Markov model"
+  image: dummy.png
+  description: "Automatic camera planning for sports has been a long term goal in computer vision and machine learning. In this paper, we study camera planning for soccer games using pan, tilt and zoom (PTZ) cameras. Two important problems have been addressed. First, we propose the Overlapped Hidden Markov Model (OHMM) method which effectively optimizes the camera trajectory in overlapped local windows. The OHMM method significantly improves the smoothness of the camera planning by optimizing the camera trajectory in the temporal space, resulting in much more natural camera movements present in real broadcasts. We also propose CalibMe which is a highly automatic camera calibration method for soccer games. CalibMe enables users to collect large amounts of training data for learning algorithms. The precision of CalibMe is evaluated on a motion blur affected sequence and outperforms several strong existing methods. The performance of the OHMM method is extensively evaluated on both synthetic and real data. It outperforms the state-of-the-art algorithms in terms of smoothness without sacrificing accuracy."
+  authors: J Chen and J J. Little
+  link:
+    url: https://www.sciencedirect.com/science/article/pii/S1077314216301709
+    display:  Compuer Vision and Image Understanding (2017)
+  highlight: 0
+  news2: 
+
+
+- title: "Learning Online Smooth Predictions for Realtime Camera Planning  using Recurrent Decision Trees"
+  image: dummy.png
+  description: "We study the problem of online prediction for realtime camera planning, where the goal is to predict smooth trajectories that correctly track and frame objects of interest (e.g., players in a basketball game). The conventional approach for training predictors does not directly consider temporal consistency, and often produces undesirable jitter. Although post-hoc smoothing (e.g., via a Kalman filter) can mitigate this issue to some degree, it is not ideal due to overly stringent modeling assumptions (e.g., Gaussian noise). We propose a recurrent decision tree framework that can directly incorporate temporal consistency into a data-driven predictor, as well as a learning algorithm that can efficiently learn such temporally smooth models. Our approach does not require any post-processing, making online smooth predictions much easier to generate when the noise model is unknown. We apply our approach to sports broadcasting: given noisy player detections, we learn where the camera should look based on human demonstrations. Our experiments exhibit significant improvements over conventional baselines and showcase the practicality of our approach."
+  authors:  J Chen, H M. Le. P Carr, Y Yue, J J. Little
+  link:
+    url: http://openaccess.thecvf.com/content_cvpr_2016/papers/Chen_Learning_Online_Smooth_CVPR_2016_paper.pdf
+    display:  Computer Vision and Pattern Recognition (2016)
+  highlight: 0
+  news2: 
+
+- title: "Real-time Physics-based Motion Capture with Sparse Sensors"
+  image: dummy.png
+  description: "We propose a framework for real-time tracking of humans using sparse multi-modal sensor sets, including data obtained from optical markers and inertial measurement units. A small number of sensors leaves the performer unencumbered by not requiring dense coverage of the body. An inverse dynamics solver and physics-based body model are used, ensuring physical plausibility by computing joint torques and contact forces. A prior model is also used to give an improved estimate of motion of internal joints. The behaviour of our tracker is evaluated using several black box motion priors. We show that our system can track and simulate a wide range of dynamic movements including bipedal gait, ballistic movements such as jumping, and interaction with the environment. The reconstructed motion has low error and appears natural. As both the internal forces and contacts are obtained with high credibility, it is also useful for human movement analysis."
+  authors:  S. Andrews, I. Huerta, T. Komura, L. Sigal and K. Mitchell
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/cvmp2016andrews.pdf
+    display: European Conference on Visual Media Production (CVMP), 2016
+  highlight: 0
+  news2: 
+
+- title: "Heterogeneous Knowledge Transfer in Video Emotion Recognition, Attribution and Summarization"
+  image: dummy.png
+  description: "Emotion is a key element in user-generated video. However, it is difficult to understand emotions conveyed in such videos due to the complex and unstructured nature of user-generated content and the sparsity of video frames expressing emotion. In this paper, for the first time, we propose a technique for transferring knowledge from heterogeneous external sources, including image and textual data, to facilitate three related tasks in understanding video emotion: emotion recognition, emotion attribution and emotion-oriented summarization. Specifically, our framework (1) learns a video encoding from an auxiliary emotional image dataset in order to improve supervised video emotion recognition, and (2) transfers knowledge from an auxiliary textual corpora for zero-shot recognition of emotion classes unseen during training. The proposed technique for knowledge transfer facilitates novel applications of emotion attribution and emotion-oriented summarization. A comprehensive set of experiments on multiple datasets demonstrate the effectiveness of our framework."
+  authors:  B. Xu, Y. Fu, Y.-G. Jiang, B. Li and L. Sigal
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/tac2016xu.pdf
+    display: IEEE Transactions on Affective Computing (TAC), 2016
+  highlight: 0
+  news2: 
+
+- title:   "Learning Language-Visual Embedding for Movie Understanding with Natural-Language"
+  image: dummy.png
+  description: "Learning a joint language-visual embedding has a number of very appealing properties and can result in variety of practical application, including natural language image/video annotation and search. In this work, we study three different joint language-visual neural network model architectures. We evaluate our models on large scale LSMDC16 [17,18] movie dataset for two tasks: 1) Standard Ranking for video annotation and retrieval 2) Our proposed movie multiple-choice test. This test facilitate automatic evaluation of visual-language models for natural language video annotation based on human activities. In addition to original Audio Description (AD) captions, provided as part of LSMDC16, we collected and will make available a) manually generated re-phrasings of those captions obtained using Amazon MTurk b) automatically generated human activity elements in ”Predicate + Object” (PO) phrases based on ”Knowlywood”, an activity knowledge mining model [22]. Our best model archives Recall@10 of 19.2% on annotation and 18.9% on video retrieval tasks for subset of 1000 samples. For multiple-choice test, our best model achieve accuracy 58.11% over whole LSMDC16 public test-set."
+  authors:  A. Torabi, N. Tandon and L. Sigal
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/arxiv2016torabi.pdf
+    display: arXiv:1609.081241, 2016
+  highlight: 0
+  news2: 
+
+- title:   "Semi-supervised Vocabulary-informed Learning"
+  image: dummy.png
+  description: "Despite significant progress in object categorization, in recent years, a number of important challenges remain; mainly, ability to learn from limited labeled data and ability to recognize object classes within large, potentially open, set of labels. Zero-shot learning is one way of addressing these challenges, but it has only been shown to work with limited sized class vocabularies and typically requires separation between supervised and unsupervised classes, allowing former to inform the latter but not vice versa. We propose the notion of semi-supervised vocabulary-informed learning to alleviate the above mentioned challenges and address problems of supervised, zero-shot and open set recognition using a unified framework. Specifically, we propose a maximum margin framework for semantic manifoldbased recognition that incorporates distance constraints from (both supervised and unsupervised) vocabulary atoms, ensuring that labeled samples are projected closest to their correct prototypes, in the embedding space, than to others. We show that resulting model shows improvements in supervised, zero-shot, and large open set recognition, with up to 310K class vocabulary on AwA and ImageNet datasets."
+  authors: Y. Fu and L. Sigal 
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/cvpr2016fu.pdf
+    display: IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016
+  highlight: 0
+  news2: 
+
+- title:   "Learning Activity Progression in LSTMs for Activity Detection and Early Detection"
+  image: dummy.png
+  description: "In this work we improve training of temporal deep models to better learn activity progression for activity detection and early detection tasks. Conventionally, when training a Recurrent Neural Network, specifically a Long Short Term Memory (LSTM) model, the training loss only considers classification error. However, we argue that the detection score of the correct activity category, or the detection score margin between the correct and incorrect categories, should be monotonically non-decreasing as the model observes more of the activity. We design novel ranking losses that directly penalize the model on violation of such monotonicities, which are used together with classification loss in training of LSTM models. Evaluation on ActivityNet shows significant benefits of the proposed ranking losses in both activity detection and early detection tasks."
+  authors:  S. Ma, L. Sigal and S. Sclaroff
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/cvpr2016ma.pdf
+    display: IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016
+  highlight: 0
+  news2: 
+
+- title:   "Harnessing Object and Scene Semantics for Large-Scale Video Understanding"
+  image: dummy.png
+  description: "Large-scale action recognition and video categorization are important problems in computer vision. To address these problems, we propose a novel object- and scene-based semantic fusion network and representation. Our semantic fusion network combines three streams of information using a three-layer neural network: (i) frame-based low-level CNN features, (ii) object features from a state-of-the-art large-scale CNN object-detector trained to recognize 20K classes, and (iii) scene features from a state-of-the-art CNN scene-detector trained to recognize 205 scenes. The trained network achieves improvements in supervised activity and video categorization in two complex large-scale datasets - ActivityNet and FCVID, respectively. Further, by examining and back propagating information through the fusion network, semantic relationships (correlations) between video classes and objects/scenes can be discovered. These video class-object/video class-scene relationships can in turn be used as semantic representation for the video classes themselves. We illustrate effectiveness of this semantic representation through experiments on zero-shot action/video classification and clustering."
+  authors:  Z. Wu, Y. Fu, Y.-G. Jiang and L. Sigal
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/cvpr2016wu.pdf
+    display: IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016
+  highlight: 0
+  news2: 
+
+- title:   "Video Emotion Recognition with Transferred Deep Feature Encodings"
+  image: dummy.png
+  description: "Despite growing research interest, emotion understanding for user-generated videos remains a challenging problem. Major obstacles include the diversity and complexity of video content, as well as the sparsity of expressed emotions. For the first time, we systematically study large-scale video emotion recognition by transferring deep feature encodings. In addition to the traditional, supervised recognition, we study the problem of zero-shot emotion recognition, where emotions in the test set are unseen during training. To cope with this task, we utilize knowledge transferred from auxiliary image and text corpora. A novel auxiliary Image Transfer Encoding (ITE) process is proposed to efficiently encode and generate video representation. We also thoroughly investigate different configurations of convolutional neural networks. Comprehensive experiments on multiple datasets demonstrate the effectiveness of our framework."
+  authors:  B. Xu, Y. Fu, Y.-G. Jiang, B. Li and L. Sigal
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/icmr2016xu.pdf
+    display: ACM International Conference in Multimedia Retrieval (ICMR), 2016
+  highlight: 0
+  news2: 
+
+- title:   "Knowledge Transfer with Interactive Learning of Semantics Relationships"
+  image: dummy.png
+  description: "We propose a novel learning framework for object categorization with interactive semantic feedback. In this framework, a discriminative categorization model improves through human-guided iterative semantic feedbacks. Specifically, the model identifies the most helpful relational semantic queries to discriminatively refine the model. The user feedback on whether the relationship is semantically valid or not is incorporated back into the model, in the form of regularization, and the process iterates. We validate the proposed model in a few-shot multi-class classification scenario, where we measure classification performance on a set of ‘target’ classes, with few training instances, by leveraging and transferring knowledge from ‘anchor’ classes, that contain larger set of labeled instances."
+  authors:  J. Choi, S. Hwang, L. Sigal and L. Davis
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/aaai2016choi.pdf
+    display: 
+  highlight: 0AAAI Conference on Artificial Intelligence (AAAI), 2016
+  news2: 
+
+- title:   "Exploiting View-Specific Appearance Similarities Across Classes for Zero-shot Pose Prediction: A Metric Learning Approach"
+  image: dummy.png
+  description: "Viewpoint estimation, especially in case of multiple object classes, remains an important and challenging problem. First, objects under different views undergo extreme appearance variations, often making withinclass variance larger than between-class variance. Second, obtaining precise ground truth for real-world images, necessary for training supervised viewpoint estimation models, is extremely difficult and time consuming. As a result, annotated data is often available only for a limited number of classes. Hence it is desirable to share viewpoint information across classes. Additional complexity arises from unaligned pose labels between classes, i.e. a side view of a car might look more like a frontal view of a toaster, than its side view. To address these problems, we propose a metric learning approach for joint class prediction and pose estimation. Our approach allows to circumvent the problem of viewpoint alignment across multiple classes, and does not require dense viewpoint labels. Moreover, we show, that the learned metric generalizes to new classes, for which the pose labels are not available, and therefore makes it possible to use only partially annotated training sets, relying on the intrinsic similarities in the viewpoint manifolds. We evaluate our approach on two challenging multi-class datasets, 3DObjects and PASCAL3D+."
+  authors:  A. Kuznetsova, S. Hwang, B. Rosenhahn and L. Sigal
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/aaai2016kuznetsova.pdf
+    display: AAAI Conference on Artificial Intelligence (AAAI), 2016
+  highlight: 0
+  news2: 
+
+- title:   "Learning to Generate Posters of Scientific Papers"
+  image: dummy.png
+  description: "Researchers summarize and represent their paper content with scientific posters, which efficiently convey their ideas. Generating a good scientific poster, however, is challenging for novel researchers, since it needs to be readable, informative, and aesthetic. This paper for the first time studies the challenging problem of learning to generate posters from scientific papers. To this end, a data-driven framework is proposed by utilizing probabilistic graphical models. Specifically, given contents to display, the key elements of a good poster, including panel layout and attributes of each panel, are learned and inferred from data. Then composition of graphical elements within each panel is synthesized. To validate our framework, we contribute a Poster-Paper dataset with exhaustively labelled attributes of poster panels. Qualitative and quantitative results indicate the effectiveness of our framework."
+  authors:  Y. Qiang, Y. Fu, Y. Guo, Z.-H. Zhou and L. Sigal
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/aaai2016qiang.pdf
+    display: AAAI Conference on Artificial Intelligence (AAAI), 2016
   highlight: 0
   news2: 
 
@@ -36,7 +271,131 @@
     url: http://openaccess.thecvf.com/content_cvpr_2016/papers/Chen_Learning_Online_Smooth_CVPR_2016_paper.pdf
     display:  Computer Vision and Pattern Recognition (2016)
   highlight: 0
+  news2:     
+
+- title:   "Storyline Representation of Egocentric Videos with an Application to Story-based Search"
+  image: dummy.png
+  description: "Egocentric videos are a valuable source of information as a daily log of our lives. However, large fraction of egocentric video content is typically irrelevant and boring to re-watch. It is an agonizing task, for example, to manually search for the moment when your daughter first met Mickey Mouse from hours-long egocentric videos taken at Disneyland. Although many summarization methods have been successfully proposed to create concise representations of videos, in practice, the value of the subshots to users may change according to their immediate preference/mood; thus summaries with fixed criteria may not fully satisfy users’ various search intents. To address this, we propose a storyline representation that expresses an egocentric video as a set of jointly inferred, through MRF inference, story elements comprising of actors, locations, supporting objects and events, depicted on a timeline. We construct such a storyline with very limited annotation data (a list of map locations and weak knowledge of what events may be possible at each location), by bootstrapping the process with data obtained through focused Web image and video searches. Our representation promotes story-based search with queries in the form of AND-OR graphs, which span any subset of story elements and their spatio-temporal composition. We show effectiveness of our approach on a set of unconstrained YouTube egocentric videos of visits to Disneyland."
+  authors:  B. Xiong, G. Kim and L. Sigal
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/iccv2015_egostory.pdf
+    display: IEEE International Conference on Computer Vision (ICCV), 2015
+  highlight: 0
+  news2:     
+
+- title:   "Learning from Synthetic Data Using a Stacked Multichannel Autoencoder"
+  image: dummy.png
+  description: "Learning from synthetic data has many important and practical applications, An example of application is photosketch recognition. Using synthetic data is challenging due to the differences in feature distributions between synthetic and real data, a phenomenon we term synthetic gap. In this paper, we investigate and formalize a general framework – Stacked Multichannel Autoencoder (SMCAE) that enables bridging the synthetic gap and learning from synthetic data more efficiently. In particular, we show that our SMCAE can not only transform and use synthetic data on the challenging face-sketch recognition task, but that it can also help simulate real images, which can be used for training classifiers for recognition. Preliminary experiments validate the effectiveness of the framework."
+  authors:  X. Zhang, Y. Fu, S. Jiang, L. Sigal and G. Agam
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/icmla2015_synth.pdf
+    display: IEEE International Conference on Machine Learning and Applications (ICMLA), 2015
+  highlight: 0
   news2: 
+
+- title:   "Cross-Domain Matching with Squared-Loss Mutual Information"
+  image: dummy.png
+  description: "The goal of cross-domain matching (CDM) is to find correspondences between two sets of objects in different domains in an unsupervised way. CDM has various interesting applications, including photo album summarization where photos are automatically aligned into a designed frame expressed in the Cartesian coordinate system, and temporal alignment which aligns sequences such as videos that are potentially expressed using different features. In this paper, we propose an informationtheoretic CDM framework based on squared-loss mutual information (SMI). The proposed approach can directly handle nonlinearly related objects/sequences with different dimensions, with the ability that hyper-parameters can be objectively optimized by cross-validation. We apply the proposed method to several real-world problems including image matching, unpaired voice conversion, photo album summarization, cross-feature video and cross-domain video-to-mocap alignment, and Kinect-based action recognition, and experimentally demonstrate that the proposed method is a promising alternative to state-of-the-art CDM methods."
+  authors:  M. Yamada, L. Sigal, M. Raptis, M. Toyoda, Y. Chang and M. Sugiyama
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/tpami2015_cdm.pdf
+    display: IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI), 2015
+  highlight: 0
+  news2: 
+
+- title:   "A Perceptual Control Space for Garment Simulation"
+  image: dummy.png
+  description: "We present a perceptual control space for simulation of cloth that works with any physical simulator, treating it as a black box. The perceptual control space provides intuitive, art-directable control over the simulation behavior based on a learned mapping from common descriptors for cloth (e.g., flowiness, softness) to the parameters of the simulation. To learn the mapping, we perform a series of perceptual experiments in which the simulation parameters are varied and participants assess the values of the common terms of the cloth on a scale. A multi-dimensional sub-space regression is performed on the results to build a perceptual generative model over the simulator parameters. We evaluate the perceptual control space by demonstrating that the generative model does in fact create simulated clothing that is rated by participants as having the expected properties. We also show that this perceptual control space generalizes to garments and motions not in the original experiments."
+  authors:  L. Sigal, M. Mahler, S. Diaz, K. McIntosh, E. Carter, T. Richards and J. Hodgins
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/siggraph2015_pcloth.pdf
+    display: ACM Transactions on Graphics (Proc. SIGGRAPH), 2015
+  highlight: 0
+  news2: 
+
+- title:   "Discovering Collective Narratives of Theme Parks from Large Collections of Visitors Photo Streams "
+  image: dummy.png
+  description: "We present an approach for generating pictorial storylines from large collections of online photo streams shared by visitors to theme parks (e.g. Disneyland), along with publicly available information such as visitor’s maps. The story graph visualizes various events and activities recurring across visitors’ photo sets, in the form of hierarchically branching narrative structure associated with attractions and districts in theme parks. We first estimate story elements of each photo stream, including the detection of faces and supporting objects, and attraction-based localization. We then create spatio-temporal story graphs via an inference of sparse time-varying directed graphs. Through quantitative evaluation and crowdsourcing-based user studies via Amazon Mechanical Turk, we show that the story graphs serve as a more convenient mid-level data structure to perform photobased recommendation tasks than other alternatives. We also present storybook-like demo examples regarding exploration, recommendation, and temporal analysis, which may be most beneficial uses of the story graphs to visitors."
+  authors:  G. Kim and L. Sigal
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/kdd2015_disneystory.pdf
+    display: KDD 2015
+  highlight: 0
+  news2: 
+
+
+- title:   "Hierarchical Maximum-Margin Clustering"
+  image: dummy.png
+  description: "We present a hierarchical maximum-margin clustering method for unsupervised data analysis. Our method extends beyond flat maximummargin clustering, and performs clustering recursively in a top-down manner. We propose an effective greedy splitting criteria for selecting which cluster to split next, and employ regularizers that enforce feature sharing/competition for capturing data semantics. Experimental results obtained on four standard datasets show that our method outperforms flat and hierarchical clustering baselines, while forming clean and semantically meaningful cluster hierarchies."
+  authors:  G.-T. Zhou, S. Hwang, M. Schmidt, L. Sigal and G. Mori
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/arxiv2015_hmmc.pdf
+    display: arXiv:1502.01827, 2015
+  highlight: 0
+  news2: 
+
+- title:   "Joint Photo Stream and Blog Post Summarization and Exploration"
+  image: dummy.png
+  description: "We propose an approach that utilizes large collections of photo streams and blog posts, two of the most prevalent sources of data on the Web, for joint story-based summarization and exploration. Blogs consist of sequences of images and associated text; they portray events and experiences with concise sentences and representative images. We leverage blogs to help achieve story-based semantic summarization of collections of photo streams. In the opposite direction, blog posts can be enhanced with sets of photo streams by showing interpolations between consecutive images in the blogs. We formulate the problem of joint alignment from blogs to photo streams and photo stream summarization in a unified latent ranking SVM framework. We alternate between solving the two coupled latent SVM problems, by first fixing the summarization and solving for the alignment from blog images to photo streams and vice versa. On a newly collected large-scale Disneyland dataset of 10K blogs (120K associated images) and 6K photo streams (540K images), we demonstrate that blog posts and photo streams are mutually beneficial for summarization, exploration, semantic knowledge transfer, and photo interpolation."
+  authors:  G. Kim, S. Moon, L. Sigal
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/cvpr2015_blogstory.pdf
+    display: IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2015
+  highlight: 0
+  news2: 
+
+- title:   "Ranking and Retrival of Image Sequences from Multiple Paragraph Queries"
+  image: dummy.png
+  description: "We propose a method to rank and retrieve image sequences from a natural language text query, consisting of multiple sentences or paragraphs. One of the method’s key applications is to visualize visitors’ text-only reviews on TRIPADVISOR or YELP, by automatically retrieving the most illustrative image sequences. While most previous work has dealt with the relations between a natural language sentence and an image or a video, our work extends to the relations between paragraphs and image sequences. Our approach leverages the vast user-generated resource of blog posts and photo streams on the Web. We use blog posts as text-image parallel training data that co-locate informative text with representative images that are carefully selected by users. We exploit large-scale photo streams to augment the image samples for retrieval. We design a latent structural SVM framework to learn the semantic relevance relations between text and image sequences. We present both quantitative and qualitative results on the newly created DISNEYLAND dataset."
+  authors:  G. Kim, S. Moon, L. Sigal
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/cvpr2015_text2pic.pdf
+    display: IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2015
+  highlight: 0
+  news2: 
+
+
+
+- title:   "Space-Time Tree Ensemble for Action Recognition"
+  image: dummy.png
+  description: "Human actions are, inherently, structured patterns of body movements. We explore ensembles of hierarchical spatio-temporal trees, discovered directly from training data, to model these structures for action recognition. The hierarchical spatio-temporal trees provide a robust midlevel representation for actions. However, discovery of frequent and discriminative tree structures is challenging due to the exponential search space, particularly if one allows partial matching. We address this by first building a concise action vocabulary via discriminative clustering. Using the action vocabulary we then utilize tree mining with subsequent tree clustering and ranking to select a compact set of highly discriminative tree patterns. We show that these tree patterns, alone, or in combination with shorter patterns (action words and pairwise patterns) achieve state-of-the-art performance on two challenging datasets: UCF Sports and HighFive. Moreover, trees learned on HighFive are used in recognizing two action classes in a different dataset, Hollywood3D, demonstrating the potential for cross-dataset generality of the trees our approach discovers."
+  authors:  S. Ma, L. Sigal, S. Sclaroff
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/cvpr2015ma.pdf
+    display: IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2015
+  highlight: 0
+  news2: 
+
+- title:   "Expanding Object Detector's Horizon: Incremental Learning Framework for Object Detection in Videos"
+  image: dummy.png
+  description: "Over the last several years it has been shown that imagebased object detectors are sensitive to the training data and often fail to generalize to examples that fall outside the original training sample domain (e.g., videos). A number of domain adaptation (DA) techniques have been proposed to address this problem. DA approaches are designed to adapt a fixed complexity model to the new (e.g., video) domain. We posit that unlabeled data should not only allow adaptation, but also improve (or at least maintain) performance on the original and other domains by dynamically adjusting model complexity and parameters. We call this notion domain expansion. To this end, we develop a new scalable and accurate incremental object detection algorithm, based on several extensions of large-margin embedding (LME). Our detection model consists of an embedding space and multiple class prototypes in that embedding space, that represent object classes; distance to those prototypes allows us to reason about multi-class detection. By incrementally detecting object instances in video and adding confident detections into the model, we are able to dynamically adjust the complexity of the detector over time by instantiating new prototypes to span all domains the model has seen. We test performance of our approach by expanding an object detector trained on ImageNet to detect objects in egocentric videos of Activity Daily Living (ADL) dataset and challenging videos from YouTube Objects (YTO) dataset."
+  authors:  A. Kuznetsova, S.-J. Hwang, B. Rosenhahn, L. Sigal
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/cvpr2015kuznetsova.pdf
+    display: IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2015
+  highlight: 0
+  news2: 
+
+- title:   "Learning to Select and Order Vacation Photographs"
+  image: dummy.png
+  description: "We propose the problem of automated photo album creation from an unordered image collection. The problem is difficult as it involves a number of complex perceptual tasks that facilitate selection and ordering of photos to create a compelling visual narrative. To help solve this problem, we collect (and will make available) a new benchmark dataset based on Flickr images. Flickr Album Dataset and provides a variety of annotations useful for the task, including manually created albums of various lengths. We analyze the problem and provide experimental evidence, through user studies, that both selection and ordering of photos within an album is important for human observers. To capture and learn rules of album composition, we propose a discriminative structured model capable of encoding simple preferences for contextual layout of the scene (e.g., spatial layout of faces, global scene context, and presence/absence of attributes) and ordering between photos (e.g., exclusion principles or correlations). The parameters of the model are learned using a structured SVM framework. Once learned, the model allows automatic composition of photo albums from unordered and untagged collections of images. We quantitatively evaluate the results obtained using our model against manually created albums and baselines on a dataset of 63 personal photo collections from 5 different topics."
+  authors:  F. Sadeghi, J. R. Tena, A. Farhadi, L. Sigal
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/wacv2015sadeghi.pdf
+    display: IEEE Winter Conference on Applications of Computer Vision (WACV), 2015
+  highlight: 0
+  news2: 
+
+- title:   "Family Member Identification from Photo Collections"
+  image: dummy.png
+  description: "Family photo collections often contain richer semantics than arbitrary images of people because families containa handful of specific individuals who can be associated with certain social roles (e.g. father, mother, or child). As a result, family photo collections have unique challenges and opportunities for face recognition compared to random groups of photos containing people. We address the problem of unsupervised family member discovery: given a collection of family photos, we infer the size of the family, as well as the visual appearance and social role of each family member. As a result, we are able to recognize the same individual across many different photos. We propose an unsupervised EM-style joint inference algorithm with a probabilistic CRF that models identity and role assignments for all detected faces, along with associated pairwise relationships between them. Our experiments illustrate how joint inference of both identity and role (across all photos simultaneously) outperforms independent estimates of each. Joint inference also improves the ability to recognize the same individual across many different photos."
+  authors:  Q. Dai, P. Carr, L. Sigal, D. Hoiem
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/wacv2015dai.pdf
+    display: IEEE Winter Conference on Applications of Computer Vision (WACV), 2015
+  highlight: 0
+  news2: 
+
 
 - title: "Unlabelled 3D Motion Examples Improve Cross View Action Recognition"
   image: dummy.png
@@ -46,4 +405,385 @@
     url: http://www.cs.ubc.ca/~shafaei/homepage/projects/papers/bmvc_14.pdf
     display:  BMVC (2014)
   highlight: 0
+  news2:     
+
+- title:   "A Unified Semantic Embedding: Relating Taxonomies and Attributes"
+  image: dummy.png
+  description: "We propose a method that learns a discriminative yet semantic space for object categorization, where we also embed auxiliary semantic entities such as supercategories and attributes. Contrary to prior work, which only utilized them as side information, we explicitly embed these semantic entities into the same space wherewe embed categories, which enables us to represent a category as their linear combination. By exploiting such a unified model for semantics, we enforce each category to be generated as a supercategory + a sparse combination of attributes, with an additional exclusive regularization to learn discriminative composition. The proposed reconstructive regularization guides the discriminative learning processto learn a model with better generalization. This model also generates compact semantic description of each category, which enhances interoperability and enables humans to analyze what has been learned."
+  authors:  S.-J. Hwang, L. Sigal
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/nips2014hwang.pdf
+    display: Neural Information Processing Systems (NIPS), 2014
+  highlight: 0
   news2: 
+
+- title:   "Parameterizing Object Detectors in the Continuous Pose Space"
+  image: dummy.png
+  description: ""
+  authors:  K. He, L. Sigal, S. Sclaroff
+  link:
+    url: 
+    display: European Conference on Computer Vision (ECCV), 2014
+  highlight: 0
+  news2: 
+
+- title:   "Nonparametric Clustering with Distance Dependent Hierarchies"
+  image: dummy.png
+  description: "The distance dependent Chinese restaurant process (ddCRP) provides a flexible framework for clustering data with temporal, spatial, or other structured dependencies. Here we model multiple groups of structured data, such as pixels within frames of a video sequence, or paragraphs within documents from a text corpus. We propose a hierarchical generalization of the ddCRP which clusters data within groups based on distances between data items, and couples clusters across groups via distances based on aggregate properties of these local clusters. Our hddCRP model subsumes previously proposed hierarchical extensions to the ddCRP, and allows more flexibility in modeling complex data. This flexibility poses a challenging inference problem, and we derive a MCMC method that makes coordinated changes to data assignments both within and between local clusters. We demonstrate the effectiveness of our hddCRP on video segmentation and discourse modeling tasks, achieving results competitive with state-of-the-art methods."
+  authors:  S. Ghosh, M. Raptis, L. Sigal, E. Sudderth
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/uai2014ghosh.pdf
+    display: Conference on Uncertainty in Artificial Intelligence (UAI), 2014
+  highlight: 0
+  news2: 
+
+- title:   "Joint Summarization of Large-scale Collections of Web Images and Videos for Storyline Reconstruction"
+  image: dummy.png
+  description: "In this paper, we address the problem of jointly summarizing large sets of Flickr images and YouTube videos. Starting from the intuition that the characteristics of the two media types are different yet complementary, we develop a fast and easily-parallelizable approach for creating not only high-quality video summaries but also novel structural summaries of online images as storyline graphs. The storyline graphs can illustrate various events or activities associated with the topic in a form of a branching network. The video summarization is achieved by diversity ranking on the similarity graphs between images and video frames. The reconstruction of storyline graphs is formulated as the inference of sparse time-varying directed graphs from a set of photo streams with assistance of videos. For evaluation, we collect the datasets of 20 outdoor activities, consisting of 2.7M Flickr images and 16K YouTube videos. Due to the large-scale nature of our problem, we evaluate our algorithm via crowdsourcing using Amazon Mechanical Turk. In our experiments, we demonstrate that the proposed joint summarization approach outperforms other baselines and our own methods using videos or images only."
+  authors:  G. Kim, L. Sigal, E. P. Xing
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/cvpr2014kim.pdf
+    display: IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2014
+  highlight: 0
+  news2: 
+
+- title:   "Domain Adaptation for Structured Regression"
+  image: dummy.png
+  description: "Discriminative regression models have proved effective for many vision applications (here we focus on 3D full-body and head pose estimation from image and depth data). However, dataset bias is common and is able to significantly degrade the performance of a trained model on target test sets. As we show, covariate shift, a form of unsupervised domain adaptation (USDA), can be used to address certain biases in this setting, but is unable to deal with more severe structural biases in the data. We propose an effective and efficient semi-supervised domain adaptation (SSDA) approach for addressing such more severe biases in the data. Proposed SSDA is a generalization of USDA, that is able to effectively leverage labeled data in the target domain when available. Our method amounts to projecting input features into a higher dimensional space (by construction well suited for domain adaptation) and estimating weights for the training samples based on the ratio of test and train marginals in that space. The resulting augmented weighted samples can then be used to learn a model of choice, alleviating the problems of bias in the data; as an example, we introduce SSDA Twin Gaussian Process regression (SSDA-TGP) model. With this model we also address the issue of data sharing, where we are able to leverage samples from certain activities (e.g., walking, jogging) to improve predictive performance on very different activities (e.g., boxing). In addition, we analyze the relationship between domain similarity and effectiveness of proposed USDA vs. SSDA methods. Moreover, we propose a computationally efficient alternative to TGP (Bo and Sminchisescu, 2010), and it’s variants, called the direct TGP (dTGP). We show that our model outperforms a number of baselines, on two public datasets: HumanEva and ETH Face Pose Range Image Dataset. We can also achieve 8 to 15 times speedup in computation time, over the traditional formulation of TGP, using the proposed direct formulation, with little to no loss in performance."
+  authors:  M. Yamada, Y. Chang and L. Sigal
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/ijcv2014yamada.pdf
+    display: International Journal of Computer Vision (IJCV), Special Issue on Domain Adaptation for Vision Applications, 2014
+  highlight: 0
+  news2: 
+
+- title:   "High-Dimensional Feature Selection by Feature-Wise Kernelized Lasso"
+  image: dummy.png
+  description: "The goal of supervised feature selection is to find a subset of input features that are responsible for predicting output values. The least absolute shrinkage and selection operator (Lasso) allows computationally efficient feature selection based on linear dependency between input features and output values. In this paper, we consider a feature-wise kernelized Lasso for capturing non-linear input-output dependency. We first show that, with particular choices of kernel functions, non-redundant features with strong statistical dependence on output values can be found in terms of kernel-based independence measures such as the Hilbert-Schmidt independence criterion (HSIC). We then show that the globally optimal solution can be efficiently computed; this makes the approach scalable to high-dimensional problems. The effectiveness of the proposed method is demonstrated through feature selection experiments for classification and regression with thousands of features."
+  authors:  M. Yamada, W. Jitkrittum, L. Sigal, E. P. Xing and M. Sugiyama
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/nc2014yamada.pdf
+    display: Neural Computation (NC), 26(1):185-207, 2014
+  highlight: 0
+  news2: 
+
+- title:   "Covariate Shift Adaptation for Discriminative 3D Pose Estimation"
+  image: dummy.png
+  description: "Discriminative, or (structured) prediction, methods have proved effective for variety of problems in computer vision; a notable example is 3D monocular pose estimation. All methods to date, however, relied on an assumption that training (source) and test (target) data come from the same underlying joint distribution. In many real cases, including standard datasets, this assumption is flawed. In presence of training set bias, the learning results in a biased model whose performance degrades on the (target) test set. Under the assumption of covariate shift we propose an unsupervised domain adaptation approach to address this problem. The approach takes the form of training instance re-weighting, where the weights are assigned based on the ratio of training and test marginals evaluated at the samples. Learning with the resulting weighted training samples, alleviates the bias in the learned models. We show the efficacy of our approach by proposing weighted variants of Kernel Regression (KR) and Twin Gaussian Processes (TGP). We show that our weighted variants outperform their un-weighted counterparts and improve on the state-of-the-art performance in the public (HUMANEVA) dataset."
+  authors:  M. Yamada, L. Sigal and M. Raptis
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/pami2013yamada.pdf
+    display: EEE Transactions on Pattern Analysis and Machine Intelligence (PAMI), 2013
+  highlight: 0
+  news2: 
+
+- title:   "Action is in the Eye of the Beholder: Eye-gaze Driven Model for Spatio-Temporal Action Localization"
+  image: dummy.png
+  description: "We propose a weakly-supervised structured learning approach for recognition and spatio-temporal localization of actions in video. As part of the proposed approach, we develop a generalization of the Max-Path search algorithm which allows us to efficiently search over a structured space of multiple spatio-temporal paths while also incorporating context information into the model. Instead of using spatial annotations in the form of bounding boxes to guide the latent model during training, we utilize human gaze data in the form of a weak supervisory signal. This is achieved by incorporating eye gaze, along with the classification, into the structured loss within the latent SVM learning framework. Experiments on a challenging benchmark dataset, UCF-Sports, show that our model is more accurate, in terms of classification, and achieves state-of-the-art results in localization. In addition, our model can produce top-down saliency maps conditioned on the classification label and localized latent paths."
+  authors:  N. Shapovalova, M. Raptis, L. Sigal
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/nips2013shapovalova.pdf
+    display: G. Mori, Neural Information Processing Systems (NIPS), 2013
+  highlight: 0
+  news2: 
+
+- title:   "From Subcategories to Visual Composites: A Multi-Level Framework for Object Detection"
+  image: dummy.png
+  description: "The appearance of an object changes profoundly with pose, camera view and interactions of the object with other objects in the scene. This makes it challenging to learn detectors based on an object-level label (e.g., “car”). We postulate that having a richer set of labelings (at different levels of granularity) for an object, including finer-grained subcategories, consistent in appearance and view, and higherorder composites – contextual groupings of objects consistent in their spatial layout and appearance, can significantly alleviate these problems. However, obtaining such a rich set of annotations, including annotation of an exponentially growing set of object groupings, is simply not feasible. We propose a weakly-supervised framework for object detection where we discover subcategories and the composites automatically with only traditional object-level category labels as input. To this end, we first propose an exemplar-SVM-based clustering approach, with latent SVM refinement, that discovers a variable length set of discriminative subcategories for each object class. We then develop a structured model for object detection that captures interactions among object subcategories and automatically discovers semantically meaningful and discriminatively relevant visual composites. We show that this model produces state-of-the-art performance on UIUC phrase object detection benchmark."
+  authors:  T. Lan, M. Raptis, L. Sigal, G. Mori
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/iccv2013lan.pdf
+    display: IEEE International Conference on Computer Vision (ICCV), 2013
+  highlight: 0
+  news2: 
+
+- title:   "Poselet Key-framing: A Model for Human Activity Recognition"
+  image: dummy.png
+  description: "In this paper, we develop a new model for recognizing human actions. An action is modeled as a very sparse sequence of temporally local discriminative keyframes – collections of partial key-poses of the actor(s), depicting key states in the action sequence. We cast the learning of keyframes in a max-margin discriminative framework, where we treat keyframes as latent variables. This allows us to (jointly) learn a set of most discriminative keyframes while also learning the local temporal context between them. Keyframes are encoded using a spatially-localizable poselet-like representation with HoG and BoW components learned from weak annotations; we rely on structured SVM formulation to align our components and mine for hard negatives to boost localization performance. This results in a model that supports spatio-temporal localization and is insensitive to dropped frames or partial observations. We show classification performance that is competitive with the state of the art on the benchmark UT-Interaction dataset and illustrate that our model outperforms prior methods in an on-line streaming setting."
+  authors:  M. Raptis, L. Sigal
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/cvpr2013raptis.pdf
+    display: IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2013
+  highlight: 0
+  news2: 
+
+- title:   "Dynamical Simulation Priors for Human Motion Tracking"
+  image: dummy.png
+  description: "We propose a simulation-based dynamical motion prior for tracking human motion from video in presence of physical ground-person interactions. Most tracking approaches to date have focused on efficient inference algorithms and/or learning of prior kinematic motion models; however, few can explicitly account for physical plausibility of recovered motion. Here, we aim to recover physically plausible motion of a single articulated human subject. Towards this end, we propose a full-body 3D physical simulationbased prior that explicitly incorporates a model of human dynamics into the Bayesian filtering framework. We consider the motion of the subject to be generated by a feedback “control loop” in which Newtonian physics approximates the rigid-body motion dynamics of the human and the environment through the application and integration of interaction forces, motor forces and gravity. Interaction forces prevent physically impossible hypotheses, enable more appropriate reactions to the environment (e.g., ground contacts) and are produced from detected human-environment collisions. Motor forces actuate the body, ensure that proposed pose transitions are physically feasible and are generated using a motion controller. For efficient inference in the resulting high-dimensional state space, we utilize an exemplar-based control strategy that reduces the effective search space of motor forces. As a result, we are able to recover physically-plausible motion of human subjects from monocular and multi-view video. We show, both quantitatively and qualitatively, that our approach performs favorably with respect to Bayesian filtering methods with standard motion priors."
+  authors:  M. Vondrak, L. Sigal and O. C. Jenkins
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/pami2012vondrak.pdf
+    display: IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI), 35(1):52-65, 2013
+  highlight: 0
+  news2: 
+
+- title:   "Canonical Locality Preserving Latent Variable Model for Discriminative Pose Inference"
+  image: dummy.png
+  description: "Discriminative approaches for human pose estimation model the functional mapping, or conditional distribution, between image features and 3D poses. Learning such multi-modal models in high dimensional spaces, however, is challenging with limited training data; often resulting in over-fitting and poor generalization. To address these issues Latent Variable Models (LVMs) have been introduced. Shared LVMs learn a low dimensional representation of common causes that give rise to both the image features and the 3D pose. Discovering the shared manifold structure can, in itself, however, be challenging. In addition, shared LVM models are often non-parametric, requiring the model representation to be a function of the training set size. We present a parametric framework that addresses these shortcomings. In particular, we jointly learn latent spaces for both image features and 3D poses by maximizing the non-linear dependencies in the projected latent space, while preserving local structure in the original space; we then learn a multi-modal conditional density between these two low-dimensional spaces in the form of Gaussian Mixture Regression. With this model we can address the issue of over-fitting and generalization, since the data is denser in the learned latent space, as well as avoid the need for learning a shared manifold for the data. We quantitatively compare the performance of the proposed method to several state-of-the-art alternatives, and show that our method gives a competitive performance."
+  authors:  Y. Tian, L. Sigal, F. De la Torre and Y. Jia
+  link:
+    url: https://www.sciencedirect.com/science/article/pii/S0262885612000972?v=s5
+    display: Image and Vision Computing (IVC), 31(3):223-230, 2013
+  highlight: 0
+  news2: 
+
+- title:   "Destination Flow for Crowd Simulation"
+  image: dummy.png
+  description: "We present a crowd simulation that captures some of the semantics of a specific scene by partly reproducing its motion behaviors, both at a lower level using a steering model and at the higher level of goal selection. To this end, we use and generalize a steering model based on linear velocity prediction, termed LTA. From a goal selection perspective, we reproduce many of the motion behaviors of the scene without explicitly specifying them. Behaviors like “wait at the tram stop” or “stroll-around” are not explicitly modeled, but learned from real examples. To this end, we process real data to extract information that we use in our simulation. As a consequence, we can easily integrate real and virtual agents in a mixed reality simulation. We propose two strategies to achieve this goal and validate the results by a user study."
+  authors:  S. Pellegrini, J. Gall, L. Sigal, L. van Gool
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/artemis2012pellegrini.pdf
+    display: Workshop on Analysis and Retrieval of Tracked Events and Motion in Imagery Streams (ARTEMIS'12), 2012
+  highlight: 0
+  news2: 
+
+- title:   "No Bias Left Behind: Covariate Shift Adaptation for Discriminative 3D Pose Estimation"
+  image: dummy.png
+  description: "Discriminative, or (structured) prediction, methods have proved effective for variety of problems in computer vision; a notable example is 3D monocular pose estimation. All methods to date, however, relied on an assumption that training (source) and test (target) data come from the same underlying joint distribution. In many real cases, including standard datasets, this assumption is flawed. In presence of training set bias, the learning results in a biased model whose performance degrades on the (target) test set. Under the assumption of covariate shift we propose an unsupervised domain adaptation approach to address this problem. The approach takes the form of training instance re-weighting, where the weights are assigned based on the ratio of training and test marginals evaluated at the samples. Learning with the resulting weighted training samples, alleviates the bias in the learned models. We show the efficacy of our approach by proposing weighted variants of Kernel Regression (KR) and Twin Gaussian Processes (TGP). We show that our weighted variants outperform their un-weighted counterparts and improve on the state-of-the-art performance in the public (HumanEva) dataset."
+  authors:  M. Yamada, L. Sigal, M. Raptis
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/eccv2012yamada.pdf
+    display: European Conference on Computer Vision (ECCV), 2012
+  highlight: 0
+  news2: 
+
+- title:   "Multi-linear Data-Driven Dynamic Hair Model with Efficient Hair-Body Collision Handling"
+  image: dummy.png
+  description: "We present a data-driven method for learning hair models that enables the creation and animation of many interactive virtual characters in real-time (for gaming, character pre-visualization and design). Our model has a number of properties that make it appealing for interactive applications: (i) it preserves the key dynamic properties of physical simulation at a fraction of the computational cost, (ii) it gives the user continuous interactive control over the hair styles (e.g., lengths) and dynamics (e.g., softness) without requiring re-styling or re-simulation, (iii) it deals with hair-body collisions explicitly using optimization in the low-dimensional reduced space, (iv) it allows modeling of external phenomena (e.g., wind). Our method builds on the recent success of reduced models for clothing and fluid simulation, but extends them in a number of significant ways. We model motion of hair in a conditional reduced sub-space, where the hair basis vectors, which encode dynamics, are linear functions of userspecified hair parameters. We formulate collision handling as an optimization in this reduced sub-space using fast iterative least squares. We demonstrate our method by building dynamic, user-controlled models of hair styles."
+  authors:  P. Guan, L. Sigal, V. Reznitskaya, J. K. Hodgins
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/sca2012guan.pdf
+    display: ACM/Eurographics Symposium on Computer Animation (SCA), 2012
+  highlight: 0
+  news2: 
+
+- title:   "Video-based 3D Motion Capture through Biped Control"
+  image: dummy.png
+  description: "Marker-less motion capture is a challenging problem, particularly when only monocular video is available. We estimate human motion from monocular video by recovering three-dimensional controllers capable of implicitly simulating the observed human behavior and replaying this behavior in other environments and under physical perturbations. Our approach employs a state-space biped controller with a balance feedback mechanism that encodes control as a sequence of simple control tasks. Transitions among these tasks are triggered on time and on proprioceptive events (e.g., contact). Inference takes the form of optimal control where we optimize a high-dimensional vector of control parameters and the structure of the controller based on an objective function that compares the resulting simulated motion with input observations. We illustrate our approach by automatically estimating controllers for a variety of motions directly from monocular video. We show that the estimation of controller structure through incremental optimization and refinement leads to controllers that are more stable and that better approximate the reference motion. We demonstrate our approach by capturing sequences of walking, jumping, and gymnastics."
+  authors:  M. Vondrak, L. Sigal, J. K. Hodgins and Odest Jenkins
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/siggraph2012vondrak.pdf
+    display: ACM Transactions on Graphics (Proc. SIGGRAPH), 2012
+  highlight: 0
+  news2: 
+
+- title:   "Human Context: Modeling human-human interactions for monocular 3D pose estimation"
+  image: dummy.png
+  description: "Automatic recovery of 3d pose of multiple interacting subjects from unconstrained monocular image sequence is a challenging and largely unaddressed problem. We observe, however, that by tacking the interactions explicitly into account, treating individual subjects as mutual “context” for one another, performance on this challenging problem can be improved. Building on this observation, in this paper we develop an approach that first jointly estimates 2d poses of people using multiperson extension of the pictorial structures model and then lifts them to 3d. We illustrate effectiveness of our method on a new dataset of dancing couples and challenging videos from dance competitions."
+  authors:  M. Andriluka and L. Sigal
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/amdo2012andriluka.pdf
+    display: VII Conference on Articulated Motion and Deformable Objects (AMDO), 2012
+  highlight: 0
+  news2: 
+
+- title:   "Social Roles in Hierarchical Models for Human Activity Recognition"
+  image: dummy.png
+  description: "We present a hierarchical model for human activity recognition in entire multi-person scenes. Our model describes human behaviour at multiple levels of detail, ranging from low-level actions through to high-level events. We also include a model of social roles, the expected behaviours of certain people, or groups of people, in a scene. The hierarchical model includes these varied representations, and various forms of interactions between people present in a scene. The model is trained in a discriminative max-margin framework. Experimental results demonstrate that this model can improve performance at all considered levels of detail, on two challenging datasets."
+  authors:  T. Lan, L. Sigal and G. Mor
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/cvpr2012tian.pdf
+    display: IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2012
+  highlight: 0
+  news2: 
+
+- title:   "Human attributes from 3D pose tracking"
+  image: dummy.png
+  description: "It is well known that biological motion conveys a wealth of socially meaningful information. From even a brief exposure, biological motion cues enable the recognition of familiar people, and the inference of attributes such as gender, age, mental state, actions and intentions. In this paper we show that from the output of a video-based 3D human tracking algorithm we can infer physical attributes (e.g., gender and weight) and aspects of mental state (e.g., happiness or sadness). In particular, with 3D articulated tracking we avoid the need for view-based models, specific camera viewpoints, and constrained domains. The task is useful for man–machine communication, and it provides a natural benchmark for evaluating the performance of 3D pose tracking methods (vs. conventional Euclidean joint error metrics). We show results on a large corpus of motion capture data and on the output of a simple 3D pose tracker applied to videos of people walking."
+  authors:  M. Livne, L. Sigal, N. Troje and D. Fleet
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/cviu2012livne.pdf
+    display: Computer Vision and Image Understanding (CVIU), 116:648-660, 2012
+  highlight: 0
+  news2: 
+
+- title:   "Shared kernel information embedding for discriminative inference"
+  image: dummy.png
+  description: "Latent variable models, such as the GPLVM and related methods, help mitigate overfitting when learning from small or moderately sized training sets. Nevertheless, existing methods suffer from several problems: 1) complexity, 2) the lack of explicit mappings to and from the latent space, 3) an inability to cope with multimodality, and 4) the lack of a well-defined density over the latent space. We propose an LVM called the Kernel Information Embedding (KIE) that defines a coherent joint density over the input and a learned latent space. Learning is quadratic, and it works well on small data sets. We also introduce a generalization, the shared KIE (sKIE), that allows us to model multiple input spaces (e.g., image features and poses) using a single, shared latent representation. KIE and sKIE permit missing data during inference and partially labeled data during learning. We show that with data sets too large to learn a coherent global model, one can use the sKIE to learn local online models. We use sKIE for human pose inference."
+  authors:  R. Memisevic, L. Sigal and D. Fleet
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/pami2012memisevic.pdf
+    display: IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI), 34(4):778-790, 2012
+  highlight: 0
+  news2: 
+
+- title:   "Loose-limbed People: Estimating Human Pose and Motion using Non-parametric Belief Propagation"
+  image: dummy.png
+  description: "We formulate the problem of 3D human pose estimation and tracking as one of inference in a graphical model. Unlike traditional kinematic tree representations, our model of the body is a collection of loosely-connected body-parts. In particular, we model the body using an undirected graphical model in which nodes correspond to parts and edges to kinematic, penetration, and temporal constraints imposed by the joints and the world. These constraints are encoded using pair-wise statistical distributions, that are learned from motion-capture training data. Human pose and motion estimation is formulated as inference in this graphical model and is solved using Particle Message Passing (PaMPas). PaMPas is a form of non-parametric belief propagation that uses a variation of particle filtering that can be applied over a general graphical model with loops. The loose-limbed model and decentralized graph structure allow us to incorporate information from “bottom-up” visual cues, such as limb and head detectors, into the inference process. These detectors enable automatic initialization and aid recovery from transient tracking failures. We illustrate the method by automatically tracking people in multi-view imagery using a set of calibrated cameras and present quantitative evaluation using the HumanEva dataset."
+  authors:  L. Sigal, M. Isard, H. Haussecker and M. J. Black
+  link:
+    url: https://link.springer.com/article/10.1007%2Fs11263-011-0493-4
+    display: International Journal of Computer Vision (IJCV), 98(1):15-48, 2012
+  highlight: 0
+  news2: 
+
+- title:   "Recognizing Character-directed Utterances in Multi-child Interactions"
+  image: dummy.png
+  description: ""
+  authors:  H. Hajishirzi, J. Lehman, K. Kumatani, L. Sigal, and J. Hodgins
+  link:
+    url: 
+    display: late-breaking report section of Human Robot Interaction (HRI), 2012
+  highlight: 0
+  news2: 
+
+- title:   "Facial Expression Transfer with Input-Output Temporal Restricted Boltzmann Machines"
+  image: dummy.png
+  description: "We present a type of Temporal Restricted Boltzmann Machine that defines a probability distribution over an output sequence conditional on an input sequence. It shares the desirable properties of RBMs: efficient exact inference, an exponentially more expressive latent state than HMMs, and the ability to model nonlinear structure and dynamics. We apply our model to a challenging real-world graphics problem: facial expression transfer. Our results demonstrate improved performance over several baselines modeling high-dimensional 2D and 3D data."
+  authors:  M. Zeiler, G. Taylor, L. Sigal, I. Matthews and R. Fergus
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/nips2011zeiler.pdf
+    display: Neural Information Processing Systems (NIPS), 2011
+  highlight: 0
+  news2: 
+
+- title:   "Visual Analysis of Humans: Looking at People"
+  image: dummy.png
+  description: "Understanding human activity from video is one of the central problems in the field of computer vision, driven by a wide variety of applications in communications, entertainment, security, commerce, and athletics. This unique text/reference provides a coherent and comprehensive overview of all aspects of video analysis of humans. Broad in coverage and accessible in style, the text presents original perspectives collected from preeminent researchers gathered from across the world. In addition to presenting state-of-the-art research, the book reviews the historical origins of the different existing methods, and predicts future trends and challenges."
+  authors:  T. Moeslund, A. Hilton, V. Krüger and L. Sigal 
+  link:
+    url: https://www.springer.com/us/book/9780857299963
+    display: ISBN 978-0-85729-996-3. To be published by Springer Verlag in October 2011
+  highlight: 0
+  news2: 
+
+- title:   "Benchmark Datasets for Pose Estimation and Tracking"
+  image: dummy.png
+  description: "This chapter discusses the needs for standard datasets in the articulated pose estimation and tracking communities. It describes the datasets that are currently available and the performance of state-of-the-art methods on them. We discuss issues of ground-truth collection and quality, complexity of appearance and poses, evaluation metrics and partitioning of data. We also discusses limitations of current datasets and possible directions in developing new datasets for future use."
+  authors:  M. Andriluka, L. Sigal and M. J. Black, Visual Analysis of Humans, Looking at People, T. Moeslund, A. Hilton, V. Krüger and L. Sigal
+  link:
+    url: https://link.springer.com/chapter/10.1007%2F978-0-85729-997-0_13
+    display: ISBN 978-0-85729-996-3. To be published by Springer Verlag in October 2011
+  highlight: 0
+  news2: 
+
+- title:   "Human Pose Estimation"
+  image: dummy.png
+  description: "Human pose estimation is one of the key problems in computer vision that has been studied for well over 15 years. The reason for its importance is the abundance of applications that can benefit from such a technology. For example, human pose estimation allows for higher level reasoning in the context of humancomputer interaction and activity recognition; it is also one of the basic building blocks for marker-less motion capture (MoCap) technology. MoCap technology is useful for applications ranging from character animation to clinical analysis of gait pathologies."
+  authors:  L. Sigal
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/SigalEncyclopediaCVdraft.pdf
+    display: Encyclopedia of Computer Vision, Springer, 2011
+  highlight: 0
+  news2: 
+
+- title:   "Motion Capture from Body-Mounted Cameras"
+  image: dummy.png
+  description: ""
+  authors:  . Shiratori, H. S. Park, L. Sigal, Y. Sheikh and J. K. Hodgins
+  link:
+    url: 
+    display: ACM Transactions on Graphics (Proc. SIGGRAPH), July 2011
+  highlight: 0
+  news2: 
+
+- title:   "Inferring 3D Body Pose Using Variational Semi-parametric Regression"
+  image: dummy.png
+  description: "To deal with multi-modality in human pose estimation, mixture models or local models are introduced. However, problems with over-fitting and generalization are caused by our necessarily limited data, and the regression parameters need to be determined without resorting to slow and processorhungry techniques, such as cross validation. To compensate these problems, we have developed a semi-parametric regression model in latent space with variational inference. Our method performed competitively in comparison to other current methods."
+  authors:   Y. Tian, Y. Jia, Y. Shi, Y. Liu, J. Hao and L. Sigal
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/icip2011tian.pdf
+    display: IEEE International Conference on Image Processing (ICIP), 2011
+  highlight: 0
+  news2: 
+
+- title:   "Latent Gaussian Mixture Regression for Human Pose Estimation"
+  image: dummy.png
+  description: "Discriminative approaches for human pose estimation model the functional mapping, or conditional distribution, between image features and 3D pose. Learning such multi-modal models in high dimensional spaces, however, is challenging with limited training data; often resulting in over-fitting and poor generalization. To address these issues latent variable models (LVMs) have been introduced. Shared LVMs attempt to learn a coherent, typically non-linear, latent space shared by image features and 3D poses, distribution of data in that latent space, and conditional distributions to and from this latent space to carry out inference. Discovering the shared manifold structure can, in itself, however, be challenging. In addition, shared LVMs models are most often non-parametric, requiring the model representation to be a function of the training set size. We present a parametric framework that addresses these shortcoming. In particular, we learn latent spaces, and distributions within them, for image features and 3D poses separately first, and then learn a multi-modal conditional density between these two lowdimensional spaces in the form of Gaussian Mixture Regression. Using our model we can address the issue of over-fitting and generalization, since the data is denser in the learned latent space, as well as avoid the necessity of learning a shared manifold for the data. We quantitatively evaluate and compare the performance of the proposed method to several state-of-the-art alternatives, and show that our method gives a competitive performance."
+  authors:  Y. Tian, L. Sigal, H. Badino, F. De la Torre and Y. Liu
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/accv2010tian.pdf
+    display: Asian Conference on Computer Vision (ACCV), 2010
+  highlight: 0
+  news2: 
+
+- title:   "Human Attributes from 3D Pose Tracking"
+  image: dummy.png
+  description: "We show that, from the output of a simple 3D human pose tracker one can infer physical attributes (e.g., gender and weight) and aspects of mental state (e.g., happiness or sadness). This task is useful for man-machine communication, and it provides a natural benchmark for evaluating the performance of 3D pose tracking methods (vs. conventional Euclidean joint error metrics). Based on an extensive corpus of motion capture data, with physical and perceptual ground truth, we analyze the inference of subtle biologically-inspired attributes from cyclic gait data. It is shown that inference is also possible with partial observations of the body, and with motions as short as a single gait cycle. Learning models from small amounts of noisy video pose data is, however, prone to over-fitting. To mitigate this we formulate learning in terms of domain adaptation, for which mocap data is uses to regularize models for inference from video-based data."
+  authors:  L. Sigal, D. Fleet, N. Troje, M. Livne
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/eccv2010sigal.pdf
+    display: European Conference on Computer Vision, ECCV 2010. 
+  highlight: 0
+  news2: 
+
+- title:   "Stable Spaces for Real-time Clothing"
+  image: dummy.png
+  description: ""
+  authors:  E. de Aguiar, L. Sigal, A. Treuille and J. K. Hodgins
+  link:
+    url: 
+    display: ACM Trans. Graphics (Proc. SIGGRAPH), July 2010
+  highlight: 0
+  news2: 
+
+- title:   "Dynamical Binary Latent Variable Models for 3D Human Pose Tracking"
+  image: dummy.png
+  description: "We introduce a new class of probabilistic latent variable model called the Implicit Mixture of Conditional Restricted Boltzmann Machines (imCRBM) for use in human pose tracking. Key properties of the imCRBM are as follows: (1) learning is linear in the number of training exemplars so it can be learned from large datasets; (2) it learns coherent models of multiple activities; (3) it automatically discovers atomic “movemes”; and (4) it can infer transitions between activities, even when such transitions are not present in the training set. We describe the model and how it is learned and we demonstrate its use in the context of Bayesian filtering for multi-view and monocular pose tracking. The model handles difficult scenarios including multiple activities and transitions among activities. We report state-of-the-art results on the HumanEva dataset."
+  authors:  G. Taylor, L. Sigal, D. Fleet, G. Hinton
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/cvpr2010gwtaylor.pdf
+    display: IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2010
+  highlight: 0
+  news2: 
+
+- title:   "HumanEva: Synchronized Video and Motion Capture Dataset and Baseline Algorithm for Evaluation of Articulated Human Motion"
+  image: dummy.png
+  description: "While research on articulated human motion and pose estimation has progressed rapidly in the last few years, there has been no systematic quantitative evaluation of competing methods to establish the current state of the art. We present data obtained using a hardware system that is able to capture synchronized video and ground-truth 3D motion. The resulting HUMANEVA datasets contain multiple subjects performing a set of predefined actions with a number of repetitions. On the order of 40, 000 frames of synchronized motion capture and multi-view video (resulting in over one quarter million image frames in total) were collected at 60 Hz with an additional 37, 000 time instants of pure motion capture data. A standard set of error measures is defined for evaluating both 2D and 3D pose estimation and tracking algorithms. We also describe a baseline algorithm for 3D articulated tracking that uses a relatively standard Bayesian framework with optimization in the form of Sequential Importance Resampling and Annealed Particle Filtering. In the context of this baseline algorithm we explore a variety of likelihood functions, prior models of human motion and the effects of algorithm parameters. Our experiments suggest that image observation models and motion priors play important roles in performance, and that in a multi-view laboratory environment, where initialization is available, Bayesian filtering tends to perform well. The datasets and the software are made available to the research community. This infrastructure will support the development of new articulated motion and pose estimation algorithms, will provide a baseline for the evaluation and comparison of new methods, and will help establish the current state of the art in human pose estimation and tracking"
+  authors:  L. Sigal, A. Balan and M. J. Black
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/EHuM_Journal_noformat.pdf
+    display: International Journal of Computer Vision (IJCV), Special Issue on Evaluation of Articulated Human Motion and Pose Estimation, 2010
+  highlight: 0
+  news2: 
+
+- title:   "Estimating Contact Dynamics"
+  image: dummy.png
+  description: "Motion and interaction with the environment are fundamentally intertwined. Few people-tracking algorithms exploit such interactions, and those that do assume that surface geometry and dynamics are given. This paper concerns the converse problem, i.e., the inference of contact and environment properties from motion. For 3D human motion, with a 12-segment articulated body model, we show how one can estimate the forces acting on the body in terms of internal forces (joint torques), gravity, and the parameters of a contact model (e.g., the geometry and dynamics of a spring-based model). This is tested on motion capture data and video-based tracking data, with walking, jogging, cartwheels, and jumping."
+  authors:  M. Brubaker, L. Sigal, D. Fleet
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/iccv2009brubaker.pdf
+    display: IEEE International Conference on Computer Vision, ICCV 2009
+  highlight: 0
+  news2: 
+
+- title:   "Dynamics and Control of Multibody Systems"
+  image: dummy.png
+  description: ""
+  authors:  M. Vondrak, L. Sigal and O. C. Jenkins
+  link:
+    url: 
+    display: Motion Control, A. Lazinica (Eds), ISBN978-953-7619-X-X, 2009
+  highlight: 0
+  news2: 
+
+- title:   "Shared Kernel Information Embedding for Discriminative Inference"
+  image: dummy.png
+  description: "Latent Variable Models (LVM), like the Shared-GPLVM and the Spectral Latent Variable Model, help mitigate overfitting when learning discriminative methods from small or moderately sized training sets. Nevertheless, existing methods suffer from several problems: 1) complexity; 2) the lack of explicit mappings to and from the latent space; 3) an inability to cope with multi-modality; and 4) the lack of a well-defined density over the latent space. We propose a LVM called the Shared Kernel Information Embedding (sKIE). It defines a coherent density over a latent space and multiple input/output spaces (e.g., image features and poses), and it is easy to condition on a latent state, or on combinations of the input/output states. Learning is quadratic, and it works well on small datasets. With datasets too large to learn a coherent global model, one can use sKIE to learn local online models. sKIE permits missing data during inference, and partially labelled data during learning. We use sKIE for human pose inference."
+  authors:  L. Sigal, R. Memisevic, D. Fleet
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/cvpr2009sigal.pdf
+    display: IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2009
+  highlight: 0
+  news2: 
+
+- title:   "Video-Based People Tracking"
+  image: dummy.png
+  description: "Vision-based human pose tracking promises to be a key enabling technology for myriad applications, including the analysis of human activities for perceptive environments and novel man-machine interfaces. While progress toward that goal has been exciting, and limited applications have been demonstrated, the recovery of human pose from video in unconstrained settings remains challenging. One of the key challenges stems from the complexity of the human kinematic structure itself. The sheer number and variety of joints in the human body (the nature of which is an active area of biomechanics research) entails the estimation of many parameters. The estimation problem is also challenging because muscles and other body tissues obscure the skeletal structure, making it impossible to directly observe the pose of the skeleton. Clothing further obscures the skeleton, and greatly increases the variability of individual appearance, which further exacerbates the problem. Finally, the imaging process itself produces a number of ambiguities, either because of occlusion, limited image resolution, or the inability to easily discriminate the parts of a person from one another or from the background. Some of these issues are inherent, yielding ambiguities that can only be resolved with prior knowledge; others lead to computational burdens that require clever engineering solutions."
+  authors:  M. Brubaker, L. Sigal and D. Fleet
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/AISEChapter2009.pdf
+    display: Handbook on Ambient Intelligence and Smart Environments, H. Nakashima, H. Aghajan, and J.C. Augusto (Eds), Springer Verlag, 2009
+  highlight: 0
+  news2: 
+
+- title:   "Physical Simulation for Probabilistic Motion Tracking"
+  image: dummy.png
+  description: "Human motion tracking is an important problem in computer vision. Most prior approaches have concentrated on efficient inference algorithms and prior motion models; however, few can explicitly account for physical plausibility of recovered motion. The primary purpose of this work is to enforce physical plausibility in the tracking of a single articulated human subject. Towards this end, we propose a fullbody 3D physical simulation-based prior that explicitly incorporates motion control and dynamics into the Bayesian filtering framework. We consider the human’s motion to be generated by a “control loop”. In this control loop, Newtonian physics approximates the rigid-body motion dynamics of the human and the environment through the application and integration of forces. Collisions generate interaction forces to prevent physically impossible hypotheses. This allows us to properly model human motion dynamics, ground contact and environment interactions. For efficient inference in the resulting high-dimensional state space, we introduce exemplar-based control strategy to reduce the effective search space. As a result we are able to recover the physically-plausible kinematic and dynamic state of the body from monocular and multi-view imagery. We show, both quantitatively and qualitatively, that our approach performs favorably with respect to standard Bayesian filtering methods."
+  authors:  M. Vondrak, L. Sigal and O. C. Jenkins
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/cvpr08sigal.pdf
+    display: IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2008
+  highlight: 0
+  news2: 
+

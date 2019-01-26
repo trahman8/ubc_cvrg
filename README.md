@@ -28,6 +28,7 @@ This github project is the development version of the webpage of Computer Vision
 - Edit content in various pages [link](https://github.com/gursimar/ubc_cvrg/tree/gh-pages/_pages)
 
 ## Deploy on UBC server
+- `ssh vision.cs.ubc.ca`
 - Clone this repo and run `deploy.sh`
 
 ## Todo list

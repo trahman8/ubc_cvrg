@@ -10,9 +10,9 @@ permalink: /research/
 Computer Vision group at UBC focuses on developing and building state-of-the-art algorithms and prototypes for visually intelligent systems. We tackle a broad spectrum of problems, from low-level vision to high-level visual semantic understanding. Applications are equally broad, spanning robotics, sport analytics, health-care, visual media curation and annotation.
 {: .text-justify}
 
-<!--
-![]({{ site.url }}{{ site.baseurl }}/images/respic/layers_real.jpg){: style="width: 300px; float: right; border: 10px"}
--->
+
+![]({{site.url}}{{site.baseurl}}/images/respic/crv16_1.png){: style="width: 300px; float: right; border: 10px"}
+
 
 
 ### Sport Analytics

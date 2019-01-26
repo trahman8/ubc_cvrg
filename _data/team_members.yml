@@ -16,6 +16,27 @@
   education1: Deep learning
   education2: Human pose estimation
 
+
+- name: Bo Zhao
+  photo: zhaobo.jpg
+  info: Postdoctoral Research Fellow
+  email: bzhao03@cs.ubc.ca
+  webpage: http://www.zhaobo.me
+  number_educ: 2
+  education1: Computer Vision 
+  education2: Deep Learning  
+  
+  
+- name: Tanzila Rahman
+  photo: tanzila.jpg
+  info: PHD Student
+  email: trahman8@cs.ubc.ca
+  webpage: http://juniv.edu/teachers/632
+  number_educ: 2
+  education1: Image Processing and Computer Vision 
+  education2: Deep Learning  
+
+
 - name: Gursimran Singh
   photo: simar.jpg
   info: Master Student
@@ -88,21 +109,3 @@
   education1: Machine Learning
   education2: Computer Vision
   
-
-- name: Bo Zhao
-  photo: zhaobo.jpg
-  info: Postdoctoral Research Fellow
-  email: bzhao03@cs.ubc.ca
-  webpage: http://www.zhaobo.me
-  number_educ: 2
-  education1: Computer Vision 
-  education2: Deep Learning  
-  
-- name: Tanzila Rahman
-  photo: tanzila.jpg
-  info: PHD Student
-  email: trahman8@cs.ubc.ca
-  webpage: http://juniv.edu/teachers/632
-  number_educ: 2
-  education1: Image Processing and Computer Vision 
-  education2: Deep Learning  

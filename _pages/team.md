@@ -78,10 +78,62 @@ permalink: /team/
     <th>Phd Students</th>
   </tr>
   <tr>
-    <td>A, Spring 2016</td>
-    <td>B, Fall 2017</td>
-    <td>C, Spring 2017</td>
+    <td><a href="http://www.cs.ubc.ca/~londeehu/publications.html">Maodi Hu</a></td>
+    <td><a href="http://www.cs.ubc.ca/~olgeorge/">Georgii Oleinikov</a></td>
+    <td><a href="https://www.cs.ubc.ca/~julm/">Julieta Martinez</a></td>
   </tr>
+  <tr>
+    <td></td>
+    <td><a href="https://sites.google.com/site/shervintari/">Shervin Mohammadi Tari</a></td>
+    <td><a href="https://sites.google.com/site/jimmyjianhuichenhomepage">Jianhui (Jimmy) Chen</a></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Parnian Alimi</td>
+    <td><a href="http://www.cs.ubc.ca/~ftung/">Fred Tung</a></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><a href="http://www.cs.ubc.ca/~tomash/">Tomas Hoffman</a></td>
+    <td><a href="http://www.sites.mech.ubc.ca/~sradmard/">Sina Radmard</a></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><a href="https://xtract.ai/about-xtract/team/moumita-roy-tora/">Moumita Roy Tora</a></td>
+    <td><a href="http://www.cs.ubc.ca/~ankgupta/">Ankur Gupta</a></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Julin Song </td>
+    <td><a href="">Tristram Southey</a></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Candice Tian</td>
+    <td><a href="http://www.cs.ubc.ca/~dpmeger/">David Meger</a></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td><a href="http://www.cs.ubc.ca/~vailen/">Wei-Lwun Lu</a></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td><a href="http://www.cs.ubc.ca/~poojav/">Pooja Viswanathan</a></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td><a href="http://www.cs.ubc.ca/~okumak/">Kenji Okuma</a></td>
+  </tr>
+
+
+
+
+
+
+
 </table>
 
 ## Administrative Support

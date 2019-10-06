@@ -3,7 +3,8 @@ umask 002
 
 # Fetch the latest sources
 echo "## Reseting code to origin ##"
-#git pull origin
+git reset --hard origin/gh-pages
+git pull origin
 git reset --hard origin/gh-pages
 
 # Use the right config file (/ubc_cvrg removed)

@@ -16,6 +16,11 @@ This github project is the development version of the webpage of Computer Vision
 - Add the news item in the news XML file [link]().
 - Optionally, highlight the news item using (red, “news1”) or (blue, “news1”).
 
+### Changing homepage
+- Changing/ adding pics to slider: ./_pages/home.md
+- Changing layout of homepage: ./_layouts/homelay.html 
+
+
 ## Setting up the project locally
 - Install bundler and Jekyll [link](https://jekyllrb.com/).
 - Git pull the source code

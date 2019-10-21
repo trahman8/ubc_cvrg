@@ -11,7 +11,7 @@ git reset --hard origin/gh-pages
 echo "## Cleaning up existing files ##"
 mv _config.yml _config_backup.yml
 mv _config_deploy.yml _config.yml
-rm -rf /home/msimar/ubc_cvrg/_site
+rm -rf /home/trahman8/ubc_cvrg/_site
 
 # Build the site
 ## bundle install
@@ -27,13 +27,13 @@ cp -rf /var/www/html/vision ~/webpage_backup
 rm -rf /var/www/html/vision/*
 
 # change permissions
-# chmod -R 664 /home/msimar/ubc_cvrg/_site/* THIS IS NOT CORRECT
+# chmod -R 664 /home/trahman8/ubc_cvrg/_site/* THIS IS NOT CORRECT
 # As directories need 775 so use the following if umask does not work
 # find /var/www/html/vision -type d -exec chmod ugo+x {} \;
 # find /var/www/html/vision -type f -exec chmod 664 {} \;
 
 # copy all files
 echo "## Host the newly built website at /var/www/html/vision/ ##" 
-cp -r /home/msimar/ubc_cvrg/_site/* /var/www/html/vision/
+cp -r /home/trahman8/ubc_cvrg/_site/* /var/www/html/vision/
 echo "######## DONE ########"
 echo "\nNOTE: If you added new files (pics/ scripts), you may have to change permission. Permission should be 755 for directories and 664 for files"

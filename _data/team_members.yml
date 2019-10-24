@@ -108,4 +108,16 @@
   number_educ: 2
   education1: Machine Learning
   education2: Computer Vision
-  
+
+ 
+- name: Zicong Fan (Alex)
+  photo: alex.jpg
+  info: Masters Student
+  email: fan@cs.ubc.ca
+  webpage: https://www.linkedin.com/in/zfancode/
+  number_educ: 3
+  education1: Graph Neural Networks
+  education2: Human Pose Estimation
+  education3: Visual Grounding
+ 
+

@@ -34,7 +34,9 @@ This github project is the development version of the webpage of Computer Vision
 
 ## Deploy on UBC server
 - `ssh vision.cs.ubc.ca`
+- `$bundle install --path vendor/bundle`
 - Clone this repo and run `deploy.sh`
+- for setting read and execute permission to images/ directory `chmod 755 images/ -R`
 
 ## Todo list
 - [ ] Get full list of publications

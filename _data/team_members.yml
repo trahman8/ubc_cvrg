@@ -31,7 +31,7 @@
   photo: tanzila.jpg
   info: PHD Student
   email: trahman8@cs.ubc.ca
-  webpage: http://juniv.edu/teachers/632
+  webpage: https://sites.google.com/view/tanzila-rahman/home
   number_educ: 2
   education1: Image Processing and Computer Vision 
   education2: Deep Learning  
@@ -108,6 +108,7 @@
   number_educ: 2
   education1: Machine Learning
   education2: Computer Vision
+
  
 - name: Zicong Fan (Alex)
   photo: alex.jpg
@@ -119,3 +120,4 @@
   education2: Human Pose Estimation
   education3: Visual Grounding
  
+

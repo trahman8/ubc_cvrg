@@ -1,4 +1,94 @@
+- title: "Mixture-Kernel Graph Attention Network for Situation Recognition"
+  image: dummy.png
+  description: "Understanding images beyond salient actions involves reasoning about scene context, objects, and the roles they play in the captured event. Situation recognition has recently been introduced as the task of jointly reasoning about the verbs (actions) and a set of semantic-role and entity (noun) pairs in the form of action frames. Labeling an image with an action frame requires an assignment of values (nouns) to the roles based on the observed image content. Among the inherent challenges are the rich conditional structured dependencies between the output role assignments and the overall semantic sparsity. In this paper, we propose a novel mixture-kernel attention graph neural network (GNN) architecture designed to address these challenges. Our GNN enables dynamic graph structure during training and inference, through the use of a graph attention mechanism, and context-aware interactions between role pairs. It also alleviates semantic sparsity by representing graph kernels using a convex combination of learned basis. We illustrate the efficacy of our model and design choices by conducting experiments on imSitu benchmark dataset, with accuracy improvements of up to 10% over state-of-the-art."
+  authors:   M. Suhail and L. Sigal
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/iccv2019suhail.pdf
+    display:  IEEE/CVF International Conference on Computer Vision (ICCV), 2019
+  highlight: 0
+  news2: 
 
+- title: "ATTENTIONRNN: A Structured Spatial Attention Mechanism"
+  image: dummy.png
+  description: "Visual attention mechanisms have proven to be integrally important constituent components of many modern deep neural architectures. They provide an efficient and effective way to utilize visual information selectively, which has shown to be especially valuable in multi-modal learning tasks. However, all prior attention frameworks lack the ability to explicitly model structural dependencies among attention variables, making it difficult to predict consistent attention masks. In this paper we develop a novel structured spatial attention mechanism which is end-to-end trainable and can be integrated with any feed-forward convolutional neural network. This proposed AttentionRNN layer explicitly enforces structure over the spatial attention variables by sequentially predicting attention values in the spatial mask in a bi-directional raster-scan and inverse raster-scan order. As a result, each attention value depends not only on local image or contextual information, but also on the previously predicted attention values. Our experiments show consistent quantitative and qualitative improvements on a variety of recognition tasks and datasets; including image categorization, question answering and image generation."
+  authors:   S. Khandelwal and L. Sigal
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/iccv2019khandelwal.pdf
+    display:  IEEE/CVF International Conference on Computer Vision (ICCV), 2019
+  highlight: 0
+  news2: 
+
+
+- title: "Watch, Listen and Tell: Multi-modal Weakly Supervised Dense Event Captioning"
+  image: dummy.png
+  description: "Multi-modal learning, particularly among imaging and linguistic modalities, has made amazing strides in many high-level fundamental visual understanding problems, ranging from language grounding to dense event captioning. However, much of the research has been limited to approaches that either do not take audio corresponding to video into account at all, or those that model the audiovisual correlations in service of sound or sound source localization. In this paper, we present the evidence, that audio signals can carry surprising amount of information when it comes to high-level visual-lingual tasks. Specifically, we focus on the problem of weakly-supervised dense event captioning in videos and show that audio on its own can nearly rival performance of a state-of-the-art visual model and, combined with video, can improve on the state-of-theart performance. Extensive experiments on the ActivityNet Captions dataset show that our proposed multi-modal approach outperforms state-of-the-art unimodal methods, as well as validate specific feature representation and architecture design choices."
+  authors:  T. Rahman, B. Xu and L. Sigal
+  link:
+    url: https://arxiv.org/pdf/1909.09944.pdf
+    display:  IEEE/CVF International Conference on Computer Vision (ICCV), 2019
+  highlight: 0
+  news2: 
+
+- title: "GraphGROUND: Graph-based Language Grounding"
+  image: dummy.png
+  description: "In this paper we present an end-to-end framework for grounding of phrases in images. In contrast to previous works, our model, which we call G 3RAPHGROUND, uses graphs to formulate more complex, non-sequential dependencies among proposal image regions and phrases. We capture intra-modal dependencies using a separate graph neural network for each modality (visual and lingual), and then use conditional message-passing in another graph neural network to fuse their outputs and capture crossmodal relationships. This final representation results in grounding decisions. The framework supports many-tomany matching and is able to ground single phrase to multiple image regions and vice versa. We validate our design choices through a series of ablation studies and illustrate state-of-the-art performance on Flickr30k and ReferIt Game benchmark datasets."
+  authors: M. Bajaj, L. Wang and L. Sigal
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/iccv2019bajaj.pdf
+    display:  IEEE/CVF International Conference on Computer Vision (ICCV), 2019
+  highlight: 0
+  news2: 
+
+- title: "DwNet: Dense warp-based network for pose-guided human video generation"
+  image: dummy.png
+  description: "Generation of realistic high-resolution videos of human subjects is a challenging and important task in computer vision. In this paper, we focus on human motion transfer – generation of a video depicting a particular subject, observed in a single image, performing a series of motions exemplified by an auxiliary (driving) video. Our GAN-based architecture, DwNet, leverages dense intermediate pose-guided representation and refinement process to warp the required subject appearance, in the form of the texture, from a source image into a desired pose. Temporal consistency is maintained by further conditioning the decoding process within a GAN on the previously generated frame. In this way a video is generated in an iterative and recurrent fashion. We illustrate the efficacy of our approach by showing state-of-the-art quantitative and qualitative performance on two benchmark datasets: TaiChi and Fashion Modeling. The latter is collected by us and will be made publicly available to the community."
+  authors: P. Zablotskaia, A. Siarohin, B. Zhao and L. Sigal
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/bmvc2019zablotskaia.pdf
+    display:  British Machine Vision Conference (BMVC), 2019
+  highlight: 0
+  news2: 
+
+
+- title: "Spatio-temporal Relational Reasoning for Video Question Answering"
+  image: dummy.png
+  description: "Video question answering is the task of automatically answering questions about videos. Among query types which include identification, localization, and counting, the most challenging questions enquire about relationships among different entities. Answering such questions, and many others, require modeling relationships between entities in the spatial domain and evolution of those relationships in the temporal domain. We argue that current approaches have limited capacity to model such long-range spatial and temporal dependencies. To address these challenges, we present a novel spatio-temporal reasoning neural module which enables modeling complex multi-entity relationships in space and long-term ordered dependencies in time. We evaluate our module on two benchmark datasets which require spatio-temporal reasoning: TGIF-QA and SVQA. We achieve state-of-the-art performance on both datasets. More significantly, we achieve substantial improvements on some of the most challenging question types, like counting, which demonstrate the effectiveness of our proposed spatio-temporal relational module."
+  authors: G. Singh, L. Sigal and J. Little
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/bmvc2019singh.pdf
+    display:  British Machine Vision Conference (BMVC), 2019
+  highlight: 0
+  news2: 
+
+- title: "A Less Biased Evaluation of Out-of-distribution Sample Detectors"
+  image: dummy.png
+  description: "In the real world, a learning system could receive an input that is unlike anything it has seen during training. Unfortunately, out-of-distribution samples can lead to unpredictable behaviour. We need to know whether any given input belongs to the population distribution of the training/evaluation data to prevent unpredictable behaviour in deployed systems. A recent surge of interest in this problem has led to the development of sophisticated techniques in the deep learning literature. However, due to the absence of a standard problem definition or an exhaustive evaluation, it is not evident if we can rely on these methods. What makes this problem different from a typical supervised learning setting is that the distribution of outliers used in training may not be the same as the distribution of outliers encountered in the application. Classical approaches that learn inliers vs. outliers with only two datasets can yield optimistic results. We introduce OD-test, a three-dataset evaluation scheme as a more reliable strategy to assess progress on this problem. We present an exhaustive evaluation of a broad set of methods from related areas on image classification tasks. Contrary to the existing results, we show that for realistic applications of highdimensional images the previous techniques have low accuracy and are not reliable in practice."
+  authors: A. Shafaei, Mark Schmidt, James J. Little
+  link:
+    url: https://arxiv.org/pdf/1809.04729.pdf
+    display:  British Machine Vision Conference (BMVC), 2019
+  highlight: 0
+  news2: 
+
+- title: "Pan-tilt-zoom SLAM for Sports Videos"
+  image: dummy.png
+  description: "We present an online SLAM system specifically designed to track pan-tilt-zoom (PTZ) cameras in highly dynamic sports such as basketball and soccer games. In these games, PTZ cameras rotate very fast and players cover large image areas. To overcome these challenges, we propose to use a novel camera model for tracking and to use rays as landmarks in mapping. Rays overcome the missing depth in pure-rotation cameras. We also develop an online pan-tilt forest for mapping and introduce moving objects (players) detection to mitigate negative impacts from foreground objects. We test our method on both synthetic and real datasets. The experimental results show the superior performance of our method over previous methods for online PTZ camera pose estimation."
+  authors: J Lu,  J Chen and J J. Little
+  link:
+    url: https://arxiv.org/pdf/1907.08816.pdf
+    display:  British Machine Vision Conference (BMVC), 2019
+  highlight: 0
+  news2: 
+
+- title: "Image Generation from Layout"
+  image: dummy.png
+  description: "Despite significant recent progress on generative models, controlled generation of images depicting multiple and complex object layouts is still a difficult problem. Among the core challenges are the diversity of appearance a given object may possess and, as a result, exponential set of images consistent with a specified layout. To address these challenges, we propose a novel approach for layout-based image generation; we call it Layout2Im. Given the coarse spatial layout (bounding boxes + object categories), our model can generate a set of realistic images which have the correct objects in the desired locations. The representation of each object is disentangled into a specified/certain part (category) and an unspecified/uncertain part (appearance). The category is encoded using a word embedding and the appearance is distilled into a low-dimensional vector sampled from a normal distribution. Individual object representations are composed together using convolutional LSTM, to obtain an encoding of the complete layout, and then decoded to an image. Several loss terms are introduced to encourage accurate and diverse image generation. The proposed Layout2Im model significantly outperforms the previous state-of-the-art, boosting the best reported inception score by 24.66% and 28.57% on the very challenging COCO-Stuff and Visual Genome datasets, respectively. Extensive experiments also demonstrate our model’s ability to generate complex and diverse images with many objects."
+  authors:   B. Zhao, L. Meng, W. Yin and L. Sigal
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/cvpr2019zhao.pdf
+    display:   IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2019
+  highlight: 0
+  news2: 
 
 - title: "Modular Generative Adversarial Networks"
   image: dummy.png

@@ -15,7 +15,15 @@
   number_educ: 2
   education1: Deep learning
   education2: Human pose estimation
-
+  
+- name: Helge Rhodin
+  photo: helge.jpg
+  info: Assistant Professor
+  email: rhodin@cs.ubc.ca 
+  webpage: http://helge.rhodin.de
+  number_educ: 2
+  education1: 3D Computer Vision
+  education2: ML-driven Computer Graphics
 
 - name: Bo Zhao
   photo: zhaobo.jpg

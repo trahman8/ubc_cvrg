@@ -36,6 +36,14 @@
   education1: Image Processing and Computer Vision 
   education2: Deep Learning  
 
+- name: Alireza Shafaei
+  photo: alireza.jpg
+  info: Ph.D. Student
+  email: shafaei@cs.ubc.ca
+  webpage: http://www.shafaei.ca
+  number_educ: 2
+  education1: Machine Learning
+  education2: Computer Vision
 
 - name: Gursimran Singh
   photo: simar.jpg

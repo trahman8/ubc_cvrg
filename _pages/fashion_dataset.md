@@ -14,4 +14,4 @@ Here some samples from the Fashion dataset:
 
 [![Video Demo]("{{ site.url }}{{ site.baseurl }}/resources/fashion_dataset/thumbnail_1.png")](https://m.media-amazon.com/images/I/91D23ZVV6NS.mp4) [![Video Demo](/resources/fashion_dataset/thumbnail_2.png)](https://m.media-amazon.com/images/I/91hECpvrRSS.mp4) [![Video Demo](/resources/fashion_dataset/thumbnail_3.png)](https://m.media-amazon.com/images/I/A1P+0ZhMAiS.mp4)
 
-To obtain the [train data]("{{ site.url }}{{ site.baseurl }}/resources/fashion_dataset/fashion_train.txt") and the [test data](resources/fashion_dataset/fashion_test.txt) you need to run the [script](resources/fashion_dataset/data_crowler.py) from the same directory where you put the above files.  
+To obtain the [train data](resources/fashion_dataset/fashion_train.txt) and the [test data](resources/fashion_dataset/fashion_test.txt) you need to run the [script](resources/fashion_dataset/data_crowler.py) from the same directory where you put the above files.  

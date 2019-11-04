@@ -136,4 +136,11 @@
   education2: Human Pose Estimation
   education3: Visual Grounding
  
-
+- name: Raghav Goyal
+  photo: raghav.jpg
+  info: Ph.D. Student
+  email: rgoyal14@cs.ubc.ca
+  webpage: https://raghavgoyal14.github.io/about/
+  number_educ: 1 
+  education1: Computer Vision
+ 

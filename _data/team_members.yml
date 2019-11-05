@@ -152,3 +152,12 @@
   number_educ: 1 
   education1: Computer Vision
  
+- name: Shih-Han Chou
+  photo: shihhan.jpg
+  info: Ph.D. Student
+  email: shchou75@cs.ubc.ca
+  webpage: https://shihhanchou.github.io
+  number_educ: 1 
+  education1: Computer Vision
+  education2: Vision Language
+  

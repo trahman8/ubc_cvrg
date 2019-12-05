@@ -79,47 +79,47 @@ permalink: /team/
   </tr>
   <tr>
     <td><a href="http://www.cs.ubc.ca/~londeehu/publications.html">Maodi Hu</a></td>
-    <td><a href="http://www.cs.ubc.ca/~olgeorge/">Georgii Oleinikov</a></td>
+    <td><a href="http://gursimar.github.io/">Gursimran Singh</a></td>
     <td><a href="https://www.cs.ubc.ca/~julm/">Julieta Martinez</a></td>
   </tr>
   <tr>
     <td></td>
-    <td><a href="https://sites.google.com/site/shervintari/">Shervin Mohammadi Tari</a></td>
+    <td><a href="https://mbajaj.wixsite.com/profile/">Mohit Bajaj</a></td>
     <td><a href="https://sites.google.com/site/jimmyjianhuichenhomepage">Jianhui (Jimmy) Chen</a></td>
   </tr>
   <tr>
     <td></td>
-    <td>Parnian Alimi</td>
+    <td><a href="http://www.cs.ubc.ca/~olgeorge/">Georgii Oleinikov</a></td>
     <td><a href="http://www.cs.ubc.ca/~ftung/">Fred Tung</a></td>
   </tr>
   <tr>
     <td></td>
-    <td><a href="http://www.cs.ubc.ca/~tomash/">Tomas Hoffman</a></td>
+    <td><a href="https://sites.google.com/site/shervintari/">Shervin Mohammadi Tari</a></td>
     <td><a href="http://www.sites.mech.ubc.ca/~sradmard/">Sina Radmard</a></td>
   </tr>
   <tr>
     <td></td>
-    <td><a href="https://xtract.ai/about-xtract/team/moumita-roy-tora/">Moumita Roy Tora</a></td>
+    <td>Parnian Alimi</td>
     <td><a href="http://www.cs.ubc.ca/~ankgupta/">Ankur Gupta</a></td>
   </tr>
   <tr>
     <td></td>
-    <td>Julin Song </td>
+    <td><a href="http://www.cs.ubc.ca/~tomash/">Tomas Hoffman</a></td>
     <td><a href="">Tristram Southey</a></td>
   </tr>
   <tr>
     <td></td>
-    <td>Candice Tian</td>
+    <td><a href="https://xtract.ai/about-xtract/team/moumita-roy-tora/">Moumita Roy Tora</a></td>
     <td><a href="http://www.cs.ubc.ca/~dpmeger/">David Meger</a></td>
   </tr>
   <tr>
     <td></td>
-    <td></td>
+    <td>Julin Song</td>
     <td><a href="http://www.cs.ubc.ca/~vailen/">Wei-Lwun Lu</a></td>
   </tr>
   <tr>
     <td></td>
-    <td></td>
+    <td>Candice Tian</td>
     <td><a href="http://www.cs.ubc.ca/~poojav/">Pooja Viswanathan</a></td>
   </tr>
   <tr>

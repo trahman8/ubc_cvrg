@@ -33,6 +33,15 @@
   number_educ: 2
   education1: Computer Vision 
   education2: Deep Learning  
+
+- name: Alireza Shafaei
+  photo: alireza.jpg
+  info: Ph.D. Student
+  email: shafaei@cs.ubc.ca
+  webpage: http://www.shafaei.ca
+  number_educ: 2
+  education1: Machine Learning
+  education2: Computer Vision
   
 - name: Rayat Hossain
   photo: rayat.jpg
@@ -52,23 +61,22 @@
   education1: Image Processing and Computer Vision 
   education2: Deep Learning  
 
-- name: Alireza Shafaei
-  photo: alireza.jpg
+- name: Raghav Goyal
+  photo: raghav.jpg
   info: Ph.D. Student
-  email: shafaei@cs.ubc.ca
-  webpage: http://www.shafaei.ca
-  number_educ: 2
-  education1: Machine Learning
-  education2: Computer Vision
-
-- name: Gursimran Singh
-  photo: simar.jpg
-  info: Master Student
-  email: msimar@cs.ubc.ca 
-  webpage: http://gursimar.github.io/
-  number_educ: 2
-  education1: Video understanding
-  education2: Deep learning
+  email: rgoyal14@cs.ubc.ca
+  webpage: https://raghavgoyal14.github.io/about/
+  number_educ: 1 
+  education1: Computer Vision
+ 
+- name: Shih-Han Chou
+  photo: shihhan.jpg
+  info: Ph.D. Student
+  email: shchou75@cs.ubc.ca
+  webpage: https://shihhanchou.github.io
+  number_educ: 1 
+  education1: Computer Vision
+  education2: Vision Language
 
 - name: Siddhesh Khandelwal
   photo: siddhesh.jpg
@@ -86,15 +94,6 @@
   webpage: http://www.cs.ubc.ca/~bichengx/
   number_educ: 1
   education1: Intersection of vision and language
-
-- name: Mohit Bajaj 
-  photo: mohit.jpg
-  info: Masters Student
-  email: mbajaj01@cs.ubc.ca
-  webpage: https://mbajaj.wixsite.com/profile/
-  number_educ: 2
-  education1: Video understanding
-  education2: Temporal and spatial localization of text in images/videos
 
 - name: Tzu-Yun (Ariel) Shann 
   photo: ariel.jpg
@@ -144,20 +143,4 @@
   education2: Human Pose Estimation
   education3: Visual Grounding
  
-- name: Raghav Goyal
-  photo: raghav.jpg
-  info: Ph.D. Student
-  email: rgoyal14@cs.ubc.ca
-  webpage: https://raghavgoyal14.github.io/about/
-  number_educ: 1 
-  education1: Computer Vision
- 
-- name: Shih-Han Chou
-  photo: shihhan.jpg
-  info: Ph.D. Student
-  email: shchou75@cs.ubc.ca
-  webpage: https://shihhanchou.github.io
-  number_educ: 1 
-  education1: Computer Vision
-  education2: Vision Language
   
